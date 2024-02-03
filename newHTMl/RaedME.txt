@@ -1,0 +1,9 @@
+<!-- .html web file web browsers(google chrome , firefox, ms edge, brave, opera)  -->
+
+<!-- .xlsv .csv .txt .jpg .png .webp .jpeg (image viewer) -->
+
+<!-- comments this statement are unreachable for rendering -->
+
+<!-- statement -->
+syntax for commenting
+<!--  -->

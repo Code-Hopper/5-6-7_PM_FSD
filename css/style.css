@@ -1,0 +1,39 @@
+/* stylesheet */
+
+/* universal selector '*' */
+/* css comment */
+
+#id1 {
+    color: green;
+}
+
+* {
+    color: blue;
+}
+
+/* tagname */
+
+h1 {
+    color: red;
+}
+
+li {
+    color: purple;
+}
+
+/* using class name (.) */
+
+.first {
+    color: brown;
+}
+
+/* id (#) */
+
+
+.second {
+    background-color: red;
+}
+
+.third {
+    font-family: sans-serif;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text & Font</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&family=Whisper&display=swap" rel="stylesheet">
+
+    <style>
+        #d1 {
+            background-color: black;
+        }
+
+        #i1 {
+            color: #ffff00;
+            text-align: justify;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-family: sans-serif;
+            font-weight: 900;
+            font-style: italic;
+
+            /* units used for font-size ( px, em, rem)*/
+
+            /* em it inherits font size from their parent */
+
+            /* font-size: 100px; */
+            /* font-size: ; */
+            /* border: 5px solid red; */
+            /* bold 100-900 */
+            /* font-family: 'Sixtyfour', sans-serif; */
+            /* font-family: 'Whisper', cursive; */
+            /* lowercase, UPPERCASE, Capitalised */
+            /* none */
+            /* left , right , center, justify */
+            /* line-height: 5px; */
+        }
+
+        #i2 {
+            text-transform: uppercase !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* em inherits the font-size from parent element */
+
+        #parent1 {
+            font-size: 10px;
+
+            /* for every child of this parent  */
+            /* 1 em = 10px */
+        }
+
+        #child1 {
+            font-size: 5em;
+        }
+
+        #parent2 {
+            font-size: 20px;
+
+            /* for every child of this parent  */
+            /* 1 em = 20px */
+        }
+
+        #child2 {
+            font-size: 5em;
+        }
+
+        #parent3 {
+            font-size: 50px;
+
+            /* for every child of this parent  */
+            /* 1 em = 20px */
+        }
+
+        #child3 {
+            font-size: 5rem;
+        }
+
+
+        /* rem this unit is going to inherit the size from the root element ( <html></html> this is a root element ) */
+
+        html {
+            font-size: 30px;
+            /* for complete html elements the default value for 1rem = 30px */
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <!-- <div id="d1">
+        <p id="i1">
+            <span id="i2"> this </span>  is some example for justified text that been written on this para using html
+            and css
+            this is asjdghJSGFJGSADASD565 asjdghJSGFJGSADASD565asjdghJSGFJGSADASD565
+            asjdghJSGFJGSADASD565asjdghJSGFJGSADASD565
+        </p>
+        <a href="">Click Here</a>
+
+    </div> -->
+
+    <div id="parent1">
+        <span id="child1">This is Child</span>
+    </div>
+
+    <div id="parent2">
+        <span id="child2">This is Child</span>
+    </div>
+
+    <div id="parent3">
+        <span id="child3">This is Child</span>
+    </div>
+
+</body>
+
+</html>
