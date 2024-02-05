@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        #d1 {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* margin: 10px; (All directions) */
+            /* margin-top: 10px;
+            margin-left: 25px;
+            margin-right: 50px;
+            margin-bottom: 100px; */
+            /* shorthand */
+            /*1. margin: T R B L; */
+            /* margin: 0px 2px 6px 50px; */
+            /* 2. margin: TB LR */
+            /* margin: 20px 10px; */
+            margin: 20px;
+
+            /* border width, border style, border color */
+            /* border-width: 20px;
+            border-style: solid;
+            border-color: aqua; */
+            border: 10px solid black;
+            /* border-top: 30px solid purple;
+            border-right: 50px solid black;
+            border-left: 20px solid yellow; */
+            /* border-top: 0; */
+            /* border-radius: 100%; */
+            padding: 100px;
+        }
+
+        #d2 {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+        #d3 {
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="d1">
+        <h1>D1</h1>
+    </div>
+    <!-- <div id="d2"></div>
+    <div id="d3"></div> -->
+
+</body>
+
+</html>
