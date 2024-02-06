@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+
+    <!-- property : position = static, relative, absolute, fixed, sticky  -->
+    <!-- direction: top - bottom - left - right -->
+
+    <style>
+        body {
+            height: 500vh;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent {
+            display: inline-block;
+            border: 2px solid black;
+        }
+
+        #i1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* position: static;
+            no changes in original position of an element */
+            position: relative;
+            left: 150px;
+            top: 200px;
+            z-index: 6;
+            /* order of stacking is calculated using z-index of any element  */
+        }
+
+        #i2 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            /* position: static;
+            no changes in original position of an element */
+            /* position: relative;
+            left: 50px;
+            top: 100px; */
+            position: relative;
+            top: 0;
+            z-index: 10;
+        }
+
+        #i3 {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            top: 0px;
+            z-index: 5;
+        }
+
+        #i4 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            /* position: absolute; */
+            /* the absolute element does not retains it's original position and consider whole body as one for move freely */
+            top: 0;
+        }
+
+        .main {
+            width: 800px;
+            height: 400px;
+            background-color: black;
+            margin: 10px;
+            position: relative;
+        }
+
+        .sub {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            top: -25px;
+            /* bottom: 0; */
+            right: -25px;
+            border: 1px solid red;
+            border-radius: 100%;
+            text-align: center;
+            font-weight: 900;
+            color: white;
+            font-size: 1.5rem;
+            font-family: sans-serif;
+        }
+
+        .fixed {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: fixed;
+            z-index: 999999;
+            top: 50%;
+        }
+
+        #sticky {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            position: sticky;
+            /* sticky top - 0 can be applied to the root element only */
+            z-index: 9999999;
+            top: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <div id="i1"></div>
+    </div>
+    <div id="i2"></div>
+
+    <div id="sticky"></div>
+    <div id="i3"></div>
+    <div id="i4"></div>
+
+    <!-- when parent element is relative and a child is absolute -->
+
+    <div class="main">
+        <div class="sub">
+            99+
+        </div>
+    </div>
+
+    <div class="fixed"></div>
+
+</body>
+
+</html>
