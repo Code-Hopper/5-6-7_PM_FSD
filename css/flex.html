@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout 1-D</title>
+
+    <style>
+        .parent {
+            background-color: black;
+            width: 800px;
+            height: 600px;
+            color: white;
+            /* padding: 5%; */
+            display: flex;
+            flex-direction: row;
+            /* gap: 20px; */
+            /* row, column, reverse*/
+            /* flex-wrap: wrap; */
+            /* nowrap, wrap */
+            /* items alignment */
+            justify-content: center;
+            /* start(left), end(right), space-around, space-between, space-evenly, center*/
+            /* if flex-direction is row then justify-content will align horizontally */
+            /* if flex-direction is column then justify-content will align vertically */
+            align-items: center;
+            /* start, baseline, center */
+
+            /* centering a element inside of any other element */
+        }
+
+        .child {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            font-size: 3rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .c1 {
+            background-color: red;            
+            flex-grow: 2;
+        }
+
+        .c2 {
+            background-color: blue;
+        }
+
+        .c3 {
+            background-color: green;
+        }
+
+        .c4 {
+            background-color: purple;
+        }
+
+        .c5 {
+            background-color: orange;
+        }
+
+        .c6 {
+            background-color: aqua;
+        }
+
+        .c7 {
+            background-color: yellow;
+        }
+
+
+        /* .d4{
+            display: inline;
+        }
+        .d5{
+            display: inline;
+        } */
+
+        /* chlid selection */
+
+        /* .d4 h2{
+            display: inline;
+            background-color: red;
+        }
+        .d5 h2{
+            display: inline;
+        } */
+
+        .parent-2 {
+            margin-top: 20px;
+            background-color: black;
+            width: 800px;
+            height: 600px;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(3 , 1fr);
+            grid-template-rows: repeat(3 , 1fr);
+        }
+        .child-2{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            font-size: 3rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .c-2-1 {
+            background-color: red;            
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .c-2-2 {
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end:3;
+        }
+
+        .c-2-3 {
+            background-color: green;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end:3;
+        }
+
+        .c-2-4 {
+            background-color: purple;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end:4;
+        }
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child c1">1</div>
+        <div class="child c2">2</div>
+        <div class="child c3">3</div>
+        <div class="child c4">4</div>
+        <!-- <div class="child c3">3</div>
+        <div class="child c4">4</div> -->
+        <!-- <div class="child c5">5</div>
+        <div class="child c6">6</div>
+        <div class="child c7">7</div>  -->
+    </div>
+
+
+    <!-- <div class="d4">
+        <h2>Inline 1</h2>
+    </div>
+    <div class="d5">
+        <h2>Inline 2</h2>
+    </div> -->
+
+    <div class="parent-2">
+        <div class="child-2 c-2-1">1</div>
+        <div class="child-2 c-2-2">2</div>
+        <div class="child-2 c-2-3">3</div>
+        <div class="child-2 c-2-4">4</div>
+    </div>
+
+</body>
+
+</html>
