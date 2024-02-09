@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+
+    <style>
+        .parent{
+            width: 600px;
+            height: 600px;
+            background-color: black;
+            /* grid layout we can manipulate both rows and columns at a same time */
+            display: grid;
+            /* define row/s */
+            /* grid-template-rows: 100px 100px 100px 100px; */
+            grid-template-rows: 2fr repeat(2,1fr) 2fr;
+            /* fr this is a unit special for templates(rows & columns) */
+            grid-template-columns: repeat(4 , 1fr);
+        }
+        .child{
+            /* width: 150px; */
+            /* height: 100px; */
+            color: white;
+            font-size: 2rem;
+        }
+        .c1{
+            background-color: red;
+        }
+        .c2{
+            background-color: blue;
+        }
+        .c3{
+            background-color: green;
+        }
+        .c4{
+            background-color: purple;
+        }
+
+        .photo-container{
+            /* background-color: black; */
+            width: 600px;
+            height: 600px;
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            /* row-gap: 5px; */
+            /* column-gap: 5px; */
+        }
+        .photo{
+            border: 2px solid white;
+            width: 100%;
+            height: 100%;
+        }
+
+        .p1{
+            /* to span row wise */
+            grid-row-start: 1;
+            grid-row-end: 3;
+            /* to span column wise */
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+    </style>
+
+</head>
+<body>
+<!--     
+    <div class="parent">
+        <div class="child c1">1</div>
+        <div class="child c2">2</div>
+        <div class="child c3">3</div>
+        <div class="child c4">4</div>
+        <div class="child c1">5</div>
+        <div class="child c2">6</div>
+        <div class="child c3">7</div>
+        <div class="child c4">8</div>
+        <div class="child c4">8</div>
+        <div class="child c4">8</div>
+        <div class="child c4">8</div>
+        <div class="child c4">8</div>
+    </div> -->
+
+    <!-- photo gallery -->
+
+    <div class="photo-container">
+        <img class="photo p1" src="https://picsum.photos/id/237/200/200
+        " alt="">
+        <img class="photo p2" src="https://picsum.photos/id/238/200/200
+        " alt="">
+        <img class="photo p3" src="https://picsum.photos/id/239/200/200
+        " alt="">
+        <img class="photo p4" src="https://picsum.photos/id/240/200/200
+        " alt="">
+        <img class="photo p5" src="https://picsum.photos/id/241/200/200
+        " alt="">
+        <img class="photo p6" src="https://picsum.photos/id/242/200/200
+        " alt="">
+    </div>
+
+</body>
+</html>

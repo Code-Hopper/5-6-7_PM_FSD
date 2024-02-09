@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Child Properties</title>
+    <style>
+        .parent{
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child{
+            font-size: 2rem;
+            color: white;
+            /* width: 150px;
+            height: 150px; */
+            flex-grow: 1;
+        }
+        .c1{
+            background-color: red;
+            /* flex-grow: 3; */
+        }
+        .c2{
+            background-color: blue;
+            /* flex-grow: 1; */
+        }
+        .c3{
+            background-color: green;
+            /* flex-grow: 2; */
+        }
+        .c4{
+            background-color: yellow;
+            /* flex-grow: 1; */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child c1">
+            <span>1</span>
+        </div>
+        <div class="child c2">
+            <span>2</span>
+        </div>
+        <div class="child c3">
+            <span>3</span>
+        </div>
+        <div class="child c4">
+            <span>4</span>
+        </div>
+    </div>
+
+</body>
+</html>
