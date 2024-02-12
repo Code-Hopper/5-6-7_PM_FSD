@@ -1,0 +1,58 @@
+html{
+
+}
+:root{
+    
+}
+/* h1.first{
+    color:red;
+}
+
+.first.second{
+    background-color: black;
+}
+
+#i1.first{
+    color: orange;
+} */
+
+/* conditional element[element]*/
+
+/* child selectors */
+
+.dark-parent {
+    background-color: black;
+}
+.dark-parent .child{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 5px;
+}
+
+.light-parent{
+    background-color: yellow;
+}
+
+.light-parent .child{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 5px;
+}
+
+.dark-parent .child.special-child{
+    background-color: white;
+}
+
+.light-parent .child.special-child{
+    background-color: black;
+}
+
+.special-child{
+    border: 15px solid purple;
+}
+
+.special-child:hover{
+    border: 15px solid blue;
+}
