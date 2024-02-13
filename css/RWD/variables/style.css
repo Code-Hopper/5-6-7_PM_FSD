@@ -1,0 +1,15 @@
+/* always create a varible in root */
+:root{
+    --mainColor: rgba(124,220,33,1);
+    --secondary-color: rgb(220, 33, 42);
+    --extra-color: rgb(17, 0, 255);
+    --w:500px;
+    --a : flex;
+}
+
+.first{
+    display: var(--a);
+    width: var(--w);
+    height: 200px;
+    background-color: var(--extra-color);
+}

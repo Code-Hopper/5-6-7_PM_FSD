@@ -1,9 +1,7 @@
-html{
+html {}
 
-}
-:root{
-    
-}
+:root {}
+
 /* h1.first{
     color:red;
 }
@@ -23,36 +21,85 @@ html{
 .dark-parent {
     background-color: black;
 }
-.dark-parent .child{
+
+.dark-parent .child {
     width: 150px;
     height: 150px;
     background-color: red;
     margin: 5px;
 }
 
-.light-parent{
+.light-parent {
     background-color: yellow;
 }
 
-.light-parent .child{
+.light-parent .child {
     width: 150px;
     height: 150px;
     background-color: red;
     margin: 5px;
 }
 
-.dark-parent .child.special-child{
+.dark-parent .child.special-child {
     background-color: white;
 }
 
-.light-parent .child.special-child{
+.light-parent .child.special-child {
     background-color: black;
 }
 
-.special-child{
+.special-child {
     border: 15px solid purple;
 }
 
-.special-child:hover{
+.special-child:hover {
     border: 15px solid blue;
+}
+
+/* using  ,  we can sperate diff. elements to apply same set of rules */
+
+.d1,
+.d2,
+#d3,
+.d4 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+}
+
+.d1 {
+    /* background-color: black; */
+}
+
+/* +  we can this for selecting adjacent element*/
+
+div+div+div+div+div {
+    background-color: green !important;
+}
+
+/* > this selectors selects direct child element */
+
+.d4>div>div>.cd4 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+
+/* ~ this selector selects siblings elements*/
+
+.d1~.d4 {
+    background-color: purple;
+}
+
+/* :root :hover :nth-child() (selector) */
+
+div:nth-child(3) {
+    background-color: orange !important;
+}
+
+.chlid:nth-child(1) , .chlid:nth-child(3) {
+    width: 100px !important;
+    height: 100px !important;
+    background-color: brown !important;
 }

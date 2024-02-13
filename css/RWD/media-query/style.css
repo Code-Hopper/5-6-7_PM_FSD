@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+}
+
+.parent{
+    width: 50%;
+    height: 500px;
+    border: 5px solid black;
+    padding: 2%;
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+@media screen and (max-width : 576px) {
+    body {
+        background-color: green !important;
+    }
+
+    .parent{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+} 
+/* mobile device */
+
+@media screen and (min-width: 576px) and (max-width: 990px){
+    body {
+        background-color: red !important;
+    }
+    .parent{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+/* media query */
