@@ -1,0 +1,24 @@
+#i1{
+    background-color: red;
+    width: fit-content;
+    color: white;
+    padding: 2%;
+}
+
+/* #i1::after{
+    content: " data after";   
+} */
+
+#i1::before{
+    content: '\f007';   
+    font-family: 'Font Awesome\ 5 Free';
+    margin-right: 15px;
+}
+
+.d1{
+    width: 500px;
+    min-height: 500px;
+    max-height: 600px;
+    background-color: red;
+    /* overflow: auto; */
+}
