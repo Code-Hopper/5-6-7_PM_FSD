@@ -44,16 +44,16 @@ body {
     top: 0;
 
     animation-name: ani1;
-    animation-duration: 3.5s;
-    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
     /* animation-delay: 2s; */
     animation-timing-function: ease;
 
 }
 
 /* .d1:hover { */
-    /* width: 300px; */
-    /* transform: translate(300px, 0) scale(2) rotate(360deg) rotateY(360deg);
+/* width: 300px; */
+/* transform: translate(300px, 0) scale(2) rotate(360deg) rotateY(360deg);
     font-size: 2rem;
     background-color: red;
     border-radius: 100%; */
@@ -75,9 +75,10 @@ body {
         font-size: 2rem;
         background-color: red;
         border-radius: 100%;
-        top: -300px;
+        top: 0;
     }
 
+    /*
     60%{
         transform: translate(0, 0) scale(2) rotate(360deg) rotateY(360deg);
         font-size: 2rem;
@@ -105,12 +106,20 @@ body {
         background-color: red;
         border-radius: 100%;
         top: -300px;
-    }
-    100%{
+    } */
+    /* 100% {
         transform: translate(0, 0) scale(2) rotate(360deg) rotateY(360deg);
         font-size: 2rem;
         background-color: red;
         border-radius: 100%;
-        top: -300px;
+        top: 0;
+    } */
+
+    100% {
+        transform: translate(0, 0) scale(1) rotate(0deg) rotateY(0deg);
+        font-size: 1rem;
+        background-color: blue;
+        border-radius: 0;
+        top: 0;
     }
 }

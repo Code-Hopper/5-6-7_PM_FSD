@@ -1,0 +1,58 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.images-parent{
+    display: grid;
+    width: 800;
+    height: 800;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 5px;
+    transform: rotate(45deg);
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+/* .child-img{ */
+    /* background-color: blue !important; */
+    /* background-image: url("https://picsum.photos/seed/picsum/200/300");
+    color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+/* } */
+
+.child-img{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.child-img img{
+    position: absolute;
+    transform: rotate(-45deg) scale(1.4);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.no-img-child{
+    opacity: 0;   
+}
