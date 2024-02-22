@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-:root{
+:root {
     --color1: #22092C;
     --color2: #872341;
     --color3: #BE3144;
@@ -15,7 +15,7 @@
 
 /* navbar starts */
 
-.navbar{
+.navbar {
     padding: 1% 8%;
     display: flex;
     justify-content: space-between;
@@ -24,35 +24,35 @@
     position: relative;
 }
 
-.navbar .navbar-logo{
+.navbar .navbar-logo {
     text-decoration: none;
     color: var(--color2);
     font-size: 2.7rem;
     font-weight: 900;
 }
 
-.navbar-logo .logo-break-text{
+.navbar-logo .logo-break-text {
     color: var(--color1);
 }
 
-.menu-container{
+.menu-container {
     display: flex;
     list-style: none;
     /* gap:10% */
     /* justify-content: center; */
 }
 
-.menu-item{
+.menu-item {
     margin-right: 5%;
 }
 
-.menu-link{
+.menu-link {
     text-decoration: none;
     font-size: 1.7rem;
     font-weight: 400;
 }
 
-.navbar-cta{
+.navbar-cta {
     font-size: 2rem;
     padding: 1% 2%;
     border: none;
@@ -61,25 +61,25 @@
     border-radius: 40px;
 }
 
-.nav-menu{
+.nav-menu {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.mobile-menu-toggler{
+.mobile-menu-toggler {
     display: none;
 }
 
 /* media query for mobile reponsive navbar using ham burger menu */
 
 @media screen and (max-width: 576px) {
-    .nav-menu{
+    .nav-menu {
         display: none;
-    } 
+    }
 
-    .mobile-menu-toggler{
+    .mobile-menu-toggler {
         display: initial;
         border: none;
         background-color: transparent;
@@ -87,7 +87,7 @@
         cursor: pointer;
     }
 
-    .mobile-menu-toggler:hover + .nav-menu{
+    .mobile-menu-toggler:hover+.nav-menu {
         display: initial;
         position: absolute;
         top: 100%;
@@ -100,7 +100,7 @@
         gap: 15px;
     }
 
-    .menu-container{
+    .menu-container {
         display: flex;
         list-style: none;
         flex-direction: column;
@@ -108,17 +108,17 @@
         /* gap:10% */
         /* justify-content: center; */
     }
-    
-    .menu-item{
+
+    .menu-item {
         margin-right: 5%;
     }
 
-    .menu-link{
+    .menu-link {
         color: white;
         font-size: 1rem;
     }
 
-    .navbar .navbar-logo{
+    .navbar .navbar-logo {
         text-decoration: none;
         color: var(--color2);
         font-size: 1.7rem;
@@ -128,3 +128,120 @@
 }
 
 /* navbar ends */
+
+/* heros section starts */
+
+.heros-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1% 8%;
+}
+
+.heros-img-container .heros-img {
+    width: 100%;
+    transform: rotateY(180deg);
+}
+
+.heros-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    width: 75%;
+}
+
+.welcome-text {
+    font-size: 3rem !important;
+    color: var(--color2);
+}
+
+.extra-welcome {
+    font-size: 2.5rem;
+}
+
+.welcome-highlight {
+    color: var(--color2);
+}
+
+.heros-cta {
+    border: 0;
+    outline: 0;
+    background-color: var(--color1);
+    color: white;
+    font-size: 1.5rem;
+    padding: 2% 5%;
+    /* border-radius: 34px; */
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.heros-cta::before{
+    content: "";
+    background-color: red;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.1s ease;
+    transform: rotate(45deg);
+}
+
+.heros-cta:hover::before{
+    width: 100%;
+}
+
+.heros-social-media-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    color: red;
+}
+
+.fa-linkedin{
+    color: rgb(4, 138, 196);
+}
+
+.fa-github{
+    color: black;
+}
+/* 
+.extra-text{
+    line-height: 50px;
+} */
+
+@media screen and (max-width:576px){
+
+    .heros-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1% 8%;
+    }
+
+    .heros-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .heros-img-container{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+}
+
+/* heros section ends */
