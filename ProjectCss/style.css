@@ -245,3 +245,72 @@
 }
 
 /* heros section ends */
+
+/* about section starts */
+
+.about-content{
+    background: linear-gradient(rgba(135, 35, 65,0.5),rgba(135, 35, 65,0.5)) , url("./media/about.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 5% 0;
+}
+
+.about-card{
+    background-color: white;
+    color: black;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-icon-circle{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    border: 2px solid black ;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+
+.about-card-icon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-icon-circle , .icon{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.icon{
+    z-index: 999;
+}
+
+/* about section ends */
+
+/* footer section starts */
+
+.footer-container{
+    background-color: var(--color1);
+    color: white;
+    padding: 2% 8%;
+}
+
+/* footer section ends */
