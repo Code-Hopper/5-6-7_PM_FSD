@@ -313,3 +313,193 @@
 // let age = "21"
 
 // console.log(`hello my name is ${name}, my age is ${age} `)
+
+// ternary oprator - ?
+
+// condition ? true block : false block
+
+// conditional statements
+// if, if-else, if-elseif , nasted if, switch case, ternary statement (?) 
+// looping statements
+// while, do while, for
+
+// syntax for writting if statements
+
+// if(condition){
+//     // true block
+// }
+
+// nextline
+
+// let a = 100
+// let b = 200
+
+// if( a > b ){
+//     console.log(`a i.e. ${a} is greater than b i.e. ${b}`)
+// }
+
+// console.log("program completed !")
+
+// if-else syntax: 
+
+// if(condition){
+//     // true block
+// }else{
+//     // false block
+// }
+
+// next lines
+
+// let a = 10;
+// let b = 20
+
+// if(a < b){
+//     console.log("B is greater than A")
+// }else{
+//     console.log("A is greater than B")
+// }
+
+// nasted if syntax
+
+// if(condition){
+//     // true block 
+//     if(condition){
+//         // true block
+//     }else{
+
+//     }
+// }else{
+
+// }
+
+// 12 , jee , cet  
+
+// if (12th pass) {
+//     if (jee pass) {
+//         if (cet pass) {
+//             console.log("addmission granted !")
+//         }else{
+//             console.log("change college !")
+//             console.log("give donation!")
+//         }
+//     }else{
+//         console.log("next attempt")
+//     }
+// }else{
+//     console.log("Re-exam for 12th")
+// }
+
+// check wheater the number 1 A is greater than B and C 
+
+// let a = 250
+// let b = 20 
+// let c = 30
+
+// if(a > b){
+//     if( a > c ){
+//         console.log("A is greater than B & C.")
+//     }else{
+//         console.log("A is not graeter than B & C")
+//     }
+// }else{
+//     console.log("A is not graeter than B & C")
+// }
+
+// if-elseif syntax 
+
+// if(condition){
+//     // true block
+// }else if(condition) {
+
+// }else{
+
+// }
+
+// greater of 3 number
+
+// let x = window.prompt("enter value of x")
+
+// console.log(x)
+
+// console.log(typeof(x))
+
+// x = Number(x)
+
+// console.log(x)
+
+// console.log(typeof(x))
+
+
+// let y = 200 
+// let z = 300
+
+// if( x > y ){
+
+//     if(x > z){
+//         console.log("X is greater than y and z !")
+//     }else{
+//         console.log("Z is greater than y and x !")
+//     }
+
+// }else if(y > z){
+//     console.log("Y greater than x and z !")
+// }else{
+//     console.log("z greater than x and y !")
+// }
+
+// ternary statement condition ? true block : flase block
+
+// let a = 200
+// let b = 300
+// let c = 40
+
+// // a > b ? console.log("a is greater than b") : console.log("b is greater than a") 
+
+// a > b ?
+//     a > c ? console.log("A is Greater than B And C") : console.log("C is Greater than A And B")
+//      : 
+//     b > c ? console.log("B is Greater than A And C") : console.log("C is Greater than B And B")
+
+// < , > , <= , >= , != , == , ===
+
+// let age = 17
+
+// if(age >= 18){
+//     console.log("you can drive a car !")
+// }else{
+//     console.log("you can't drive a car !")
+// }
+
+// if(age <= 18){
+//     console.log("you are teenager !")
+// }else{
+//     console.log("you are not a teenager !")
+// }
+
+// even , odd % 2 = 0
+
+let number = 9
+
+// if(number % 2 == 0){
+//     console.log(`${number} is even !`)
+// }else{
+//     console.log(`${number} is odd !`)
+// }
+
+// if( 10  == "10" ){
+//     console.log("they are equal !")
+// }else{
+//     console.log("they are not equal !")
+// }
+
+// if( 10  === "10" ){
+//     console.log("they are equal !")
+// }else{
+//     console.log("they are not equal !")
+// }
+
+if(number % 2 != 0){
+    console.log(`${number} is odd !`)
+}else{
+    console.log(`${number} is even !`)
+}
