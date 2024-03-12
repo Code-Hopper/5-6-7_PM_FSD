@@ -1,158 +1,184 @@
-// // // // // alert("hello from script js!")
+// // // // // // alert("hello from script js!")
 
-// // // // // variables
-// // // // // scope name = value;
+// // // // // // variables
+// // // // // // scope name = value;
 
-// // // // // comment in js
+// // // // // // comment in js
 
-// // // // /*
-// // // // this
-// // // // is
-// // // // multi
-// // // // line 
-// // // // commet
-// // // // */
+// // // // // /*
+// // // // // this
+// // // // // is
+// // // // // multi
+// // // // // line 
+// // // // // commet
+// // // // // */
 
-// // // // // let a = "10"
-// // // // // let b = 10
-// // // // // let c = 30
+// // // // // // let a = "10"
+// // // // // // let b = 10
+// // // // // // let c = 30
 
-// // // // // oprators
+// // // // // // oprators
 
-// // // // // 1. Airhtmatics + - / * %
-// // // // // 2. increement and decreement ++ , -- (pre,post)
-// // // // // 3. Assignment =
-// // // // // 4. Conditional/Comparision Oprators < , > , <= , >= , != , == , ===
-// // // // // 5. (Logics gates) Logical Oprators &&(AND) , ||(OR) , !(NOT) 
-// // // // // 6. Bitwise oprators & , ||
-// // // // // 7. Dot notation ' . '
+// // // // // // 1. Airhtmatics + - / * %
+// // // // // // 2. increement and decreement ++ , -- (pre,post)
+// // // // // // 3. Assignment =
+// // // // // // 4. Conditional/Comparision Oprators < , > , <= , >= , != , == , ===
+// // // // // // 5. (Logics gates) Logical Oprators &&(AND) , ||(OR) , !(NOT) 
+// // // // // // 6. Bitwise oprators & , ||
+// // // // // // 7. Dot notation ' . '
 
-// // // // // opration
+// // // // // // opration
 
-// // // // // () , [] , {}
+// // // // // // () , [] , {}
 
-// // // // // data types in js
-// // // // // 1)primitve , 2)non-primitve
+// // // // // // data types in js
+// // // // // // 1)primitve , 2)non-primitve
 
-// // // // // 1)  Number (integers, floats, double) (1,1.0,1.514) , String (group of charchters ,a string has to be writing in qoutes "" , '' , `` back ticks ), Boolean (true, false)
+// // // // // // 1)  Number (integers, floats, double) (1,1.0,1.514) , String (group of charchters ,a string has to be writing in qoutes "" , '' , `` back ticks ), Boolean (true, false)
 
-// // // // // undefined (trying to access before ), null
+// // // // // // undefined (trying to access before ), null
 
-// // // // // 2) Array, objects, function
-// // // // // NaN (not a number)
+// // // // // // 2) Array, objects, function
+// // // // // // NaN (not a number)
 
-// // // // // let z = null
+// // // // // // let z = null
 
-// // // // let a = 30
-// // // // let b = "amey"
-// // // // let c = false
+// // // // // let a = 30
+// // // // // let b = "amey"
+// // // // // let c = false
 
-// // // // let d = [1,2,3,4]
-// // // // let e = {
-// // // //     name: "name 1"
-// // // // }
+// // // // // let d = [1,2,3,4]
+// // // // // let e = {
+// // // // //     name: "name 1"
+// // // // // }
 
-// // // // let f = () =>{
-// // // //     console.log('hello')
-// // // // }
+// // // // // let f = () =>{
+// // // // //     console.log('hello')
+// // // // // }
 
-// // // // let g;
+// // // // // let g;
 
-// // // // let h = null
+// // // // // let h = null
 
-// // // // let i = Number("a1")
+// // // // // let i = Number("a1")
 
-// // // // console.log(typeof(a))
-// // // // console.log(typeof(b))
-// // // // console.log(typeof(c))
-// // // // console.log(typeof(d))
-// // // // console.log(typeof(e))
-// // // // console.log(typeof(f))
-// // // // console.log(typeof(g))
-// // // // console.log(typeof(h))
-// // // // console.log(i)
+// // // // // console.log(typeof(a))
+// // // // // console.log(typeof(b))
+// // // // // console.log(typeof(c))
+// // // // // console.log(typeof(d))
+// // // // // console.log(typeof(e))
+// // // // // console.log(typeof(f))
+// // // // // console.log(typeof(g))
+// // // // // console.log(typeof(h))
+// // // // // console.log(i)
 
-// // // // output and input function
+// // // // // output and input function
 
-// // // // built-in (jo js mai hai)  function output function
-// // // // console.log() , window.alert() , document.write()
+// // // // // built-in (jo js mai hai)  function output function
+// // // // // console.log() , window.alert() , document.write()
 
-// // // // they accept any data string, number, boolean
+// // // // // they accept any data string, number, boolean
 
-// // // // console.log("hello world !")
-// // // // console.log("hello world  2 !")
+// // // // // console.log("hello world !")
+// // // // // console.log("hello world  2 !")
 
-// // // // console.warn("this is warning !")
-// // // // console.error("this is warning !")
-// // // // console.info("this is warning !")
-// // // // console.table([1,2,3])
+// // // // // console.warn("this is warning !")
+// // // // // console.error("this is warning !")
+// // // // // console.info("this is warning !")
+// // // // // console.table([1,2,3])
 
-// // // // window.alert("hello !")
+// // // // // window.alert("hello !")
 
-// // // // document.write("this is something !") // document means html docs
+// // // // // document.write("this is something !") // document means html docs
 
-// // // // built-in input function
+// // // // // built-in input function
 
-// // // let data = window.prompt("")
-// // // // prompt function will also returns us a string 
-// // // console.log(data)
-// // // console.log(typeof(data))
+// // // // let data = window.prompt("")
+// // // // // prompt function will also returns us a string 
+// // // // console.log(data)
+// // // // console.log(typeof(data))
 
 
-// // // // type casting changing the data type of a certain data
+// // // // // type casting changing the data type of a certain data
 
-// // // // Number -> String 
-// // // // String -> Number(conditions applied)
-// // // // Number -> Boolean
-// // // // Boolean -> Number
-// // // // Boolean -> String
-// // // // String -> Boolean
+// // // // // Number -> String 
+// // // // // String -> Number(conditions applied)
+// // // // // Number -> Boolean
+// // // // // Boolean -> Number
+// // // // // Boolean -> String
+// // // // // String -> Boolean
 
-// // // // using function keyword/normal function
-// // // // function doSomething () {
+// // // // // using function keyword/normal function
+// // // // // function doSomething () {
 
-// // // // }
+// // // // // }
 
-// // // // ES6 Module/Arrow Function/Call Back
-// // // // let doSomething = () =>{
+// // // // // ES6 Module/Arrow Function/Call Back
+// // // // // let doSomething = () =>{
 
-// // // // }
+// // // // // }
 
-// // // type casting
+// // // // type casting
 
-// // // let data = 1
+// // // // let data = 1
+
+// // // // console.log("before casting")
+// // // // console.log(typeof(data))
+// // // // console.log(data)
+
+// // // // // number ->  string
+// // // // // number ->  boolean
+
+// // // // // re-assignment
+// // // // data = String(data)
+// // // // console.log("after casting")
+// // // // console.log(typeof(data))
+// // // // console.log(data)
+
+
+// // // // data = Boolean(data)
+// // // // console.log("after casting")
+// // // // console.log(typeof(data))
+
+// // // // // if value exists then true else false
+
+// // // // console.log(data)
+
+
+// // // // let data = ""
+
+// // // // console.log("before casting")
+// // // // console.log(typeof(data))
+// // // // console.log(data)
+
+// // // // // string ->  number
+// // // // // string ->  boolean
+
+// // // // // re-assignment
+// // // // // data = Number(data)
+// // // // // console.log("after casting")
+// // // // // console.log(typeof(data))
+// // // // // console.log(data)
+
+// // // // // wheneven we try to cast a alpha numeric strings to number we will also get NaN(Not a Number)
+
+
+// // // // data = Boolean(data)
+// // // // console.log("after casting")
+// // // // console.log(typeof(data))
+
+// // // // // if value exists then true else false
+
+// // // // console.log(data)
+
+// // // let data = false
 
 // // // console.log("before casting")
 // // // console.log(typeof(data))
 // // // console.log(data)
 
-// // // // number ->  string
-// // // // number ->  boolean
-
-// // // // re-assignment
-// // // data = String(data)
-// // // console.log("after casting")
-// // // console.log(typeof(data))
-// // // console.log(data)
-
-
-// // // data = Boolean(data)
-// // // console.log("after casting")
-// // // console.log(typeof(data))
-
-// // // // if value exists then true else false
-
-// // // console.log(data)
-
-
-// // // let data = ""
-
-// // // console.log("before casting")
-// // // console.log(typeof(data))
-// // // console.log(data)
-
-// // // // string ->  number
-// // // // string ->  boolean
+// // // // boolean ->  number
+// // // // boolean ->  string
 
 // // // // re-assignment
 // // // // data = Number(data)
@@ -160,346 +186,496 @@
 // // // // console.log(typeof(data))
 // // // // console.log(data)
 
-// // // // wheneven we try to cast a alpha numeric strings to number we will also get NaN(Not a Number)
+// // // // if value is true then number casting becomes 1
+// // // // if value is false then number casting becomes 0
 
-
-// // // data = Boolean(data)
+// // // data = String(data)
 // // // console.log("after casting")
 // // // console.log(typeof(data))
 
 // // // // if value exists then true else false
 
+// // // // false - boolean
+// // // // "false" - string
+
 // // // console.log(data)
 
-// // let data = false
+// // // // functions involved in casting 
 
-// // console.log("before casting")
-// // console.log(typeof(data))
-// // console.log(data)
+// // // Number(data)(this function casts to number) , String(data), Boolean(data)
 
-// // // boolean ->  number
-// // // boolean ->  string
+// // // hoisting in javascript
+// // // default thing in js that it hoist the declaration part above all the scopes
 
-// // // re-assignment
-// // // data = Number(data)
-// // // console.log("after casting")
-// // // console.log(typeof(data))
-// // // console.log(data)
+// // // console.log(x) 
+// // // console.log will give undefined because only let x is rised above
+// // // var x = 5
 
-// // // if value is true then number casting becomes 1
-// // // if value is false then number casting becomes 0
+// // // ++(+1), --(-1) | pre , post  
 
-// // data = String(data)
-// // console.log("after casting")
-// // console.log(typeof(data))
+// // // let x = 10
 
-// // // if value exists then true else false
+// // // console.log(x++)
+// // // console.log(x)
+// // // console.log(x)
 
-// // // false - boolean
-// // // "false" - string
+// // // console.log(++x)
+// // // console.log(x)
+// // // console.log(x)
 
-// // console.log(data)
+// // // console.log(x--)
+// // // console.log(x)
+// // // console.log(x)
 
-// // // functions involved in casting 
+// // // console.log(--x)
+// // // console.log(x)
+// // // console.log(x)
 
-// // Number(data)(this function casts to number) , String(data), Boolean(data)
+// // // airthmatics + , - , * , / , %
 
-// // hoisting in javascript
-// // default thing in js that it hoist the declaration part above all the scopes
+// // // let a = 10
+// // // let b = 20
 
-// // console.log(x) 
-// // console.log will give undefined because only let x is rised above
-// // var x = 5
+// // // let c = a + b
+// // // console.log(c)
 
-// // ++(+1), --(-1) | pre , post  
+// // // c = a - b
+// // // console.log(c)
 
-// // let x = 10
+// // // c = a * b
+// // // console.log(c)
 
-// // console.log(x++)
-// // console.log(x)
-// // console.log(x)
+// // // c = a / b
+// // // console.log(c)
 
-// // console.log(++x)
-// // console.log(x)
-// // console.log(x)
+// // // c = a % b
+// // // console.log(c)
 
-// // console.log(x--)
-// // console.log(x)
-// // console.log(x)
+// // // a += b
+// // // a = a + b
+// // // a -= b
+// // // a *= b
+// // // a /= b
+// // // a %= b 
+// // // a = a % b
+// // // console.log(a)
 
-// // console.log(--x)
-// // console.log(x)
-// // console.log(x)
+// // // string concatation
+// // // joining string with variables, number, another string
 
-// // airthmatics + , - , * , / , %
+// // // let name = "om"
+// // // let age = 12
+// // // console.log("hello my name is " + name + ", my age is " + age)
 
-// // let a = 10
+// // // document.write("hello my name is " + name + ", my age is " + age)
+
+// // // window.alert("hello my name is " + name + ", my age is " + age)
+
+// // // window.prompt("hello my name is " + name + ", my age is " + age)
+
+// // // string + string = string 
+
+// // // string + number = string 
+
+// // // number + string = string
+
+// // // number + number = number
+
+// // // console.log(5+5)
+// // // console.log("5"+"5")
+// // // console.log("5"+5)
+// // // console.log(5+"5")
+
+// // let num1 = window.prompt("Enter Number 1")
+// // console.log(typeof(num1))
+
+// // num1 = Number(num1)
+
+// // console.log(typeof(num1))
+
+
+// // // let num2 = window.prompt("Enter Number 2")
+// // // console.log(typeof(num2))
+
+// // // num2 = Number(num2)
+
+// // // console.log(typeof(num2))
+
+// // let num2 = Number(window.prompt("Enter Number 2"))
+// // console.log(typeof(num2))
+
+// // console.log(num1 + num2)
+
+// // ES6 - template litrals
+
+// // let name = "amey"
+
+// // let age = "21"
+
+// // console.log(`hello my name is ${name}, my age is ${age} `)
+
+// // ternary oprator - ?
+
+// // condition ? true block : false block
+
+// // conditional statements
+// // if, if-else, if-elseif , nasted if, switch case, ternary statement (?) 
+// // looping statements
+// // while, do while, for
+
+// // syntax for writting if statements
+
+// // if(condition){
+// //     // true block
+// // }
+
+// // nextline
+
+// // let a = 100
+// // let b = 200
+
+// // if( a > b ){
+// //     console.log(`a i.e. ${a} is greater than b i.e. ${b}`)
+// // }
+
+// // console.log("program completed !")
+
+// // if-else syntax: 
+
+// // if(condition){
+// //     // true block
+// // }else{
+// //     // false block
+// // }
+
+// // next lines
+
+// // let a = 10;
 // // let b = 20
 
-// // let c = a + b
-// // console.log(c)
+// // if(a < b){
+// //     console.log("B is greater than A")
+// // }else{
+// //     console.log("A is greater than B")
+// // }
 
-// // c = a - b
-// // console.log(c)
+// // nasted if syntax
 
-// // c = a * b
-// // console.log(c)
+// // if(condition){
+// //     // true block 
+// //     if(condition){
+// //         // true block
+// //     }else{
 
-// // c = a / b
-// // console.log(c)
+// //     }
+// // }else{
 
-// // c = a % b
-// // console.log(c)
+// // }
 
-// // a += b
-// // a = a + b
-// // a -= b
-// // a *= b
-// // a /= b
-// // a %= b 
-// // a = a % b
-// // console.log(a)
+// // 12 , jee , cet  
 
-// // string concatation
-// // joining string with variables, number, another string
+// // if (12th pass) {
+// //     if (jee pass) {
+// //         if (cet pass) {
+// //             console.log("addmission granted !")
+// //         }else{
+// //             console.log("change college !")
+// //             console.log("give donation!")
+// //         }
+// //     }else{
+// //         console.log("next attempt")
+// //     }
+// // }else{
+// //     console.log("Re-exam for 12th")
+// // }
 
-// // let name = "om"
-// // let age = 12
-// // console.log("hello my name is " + name + ", my age is " + age)
+// // check wheater the number 1 A is greater than B and C 
 
-// // document.write("hello my name is " + name + ", my age is " + age)
+// // let a = 250
+// // let b = 20 
+// // let c = 30
 
-// // window.alert("hello my name is " + name + ", my age is " + age)
+// // if(a > b){
+// //     if( a > c ){
+// //         console.log("A is greater than B & C.")
+// //     }else{
+// //         console.log("A is not graeter than B & C")
+// //     }
+// // }else{
+// //     console.log("A is not graeter than B & C")
+// // }
 
-// // window.prompt("hello my name is " + name + ", my age is " + age)
+// // if-elseif syntax 
 
-// // string + string = string 
+// // if(condition){
+// //     // true block
+// // }else if(condition) {
 
-// // string + number = string 
+// // }else{
 
-// // number + string = string
+// // }
 
-// // number + number = number
+// // greater of 3 number
 
-// // console.log(5+5)
-// // console.log("5"+"5")
-// // console.log("5"+5)
-// // console.log(5+"5")
+// // let x = window.prompt("enter value of x")
 
-// let num1 = window.prompt("Enter Number 1")
-// console.log(typeof(num1))
+// // console.log(x)
 
-// num1 = Number(num1)
+// // console.log(typeof(x))
 
-// console.log(typeof(num1))
+// // x = Number(x)
 
+// // console.log(x)
 
-// // let num2 = window.prompt("Enter Number 2")
-// // console.log(typeof(num2))
+// // console.log(typeof(x))
 
-// // num2 = Number(num2)
 
-// // console.log(typeof(num2))
+// // let y = 200 
+// // let z = 300
 
-// let num2 = Number(window.prompt("Enter Number 2"))
-// console.log(typeof(num2))
+// // if( x > y ){
 
-// console.log(num1 + num2)
+// //     if(x > z){
+// //         console.log("X is greater than y and z !")
+// //     }else{
+// //         console.log("Z is greater than y and x !")
+// //     }
 
-// ES6 - template litrals
+// // }else if(y > z){
+// //     console.log("Y greater than x and z !")
+// // }else{
+// //     console.log("z greater than x and y !")
+// // }
 
-// let name = "amey"
+// // ternary statement condition ? true block : flase block
 
-// let age = "21"
+// // let a = 200
+// // let b = 300
+// // let c = 40
 
-// console.log(`hello my name is ${name}, my age is ${age} `)
+// // // a > b ? console.log("a is greater than b") : console.log("b is greater than a") 
 
-// ternary oprator - ?
+// // a > b ?
+// //     a > c ? console.log("A is Greater than B And C") : console.log("C is Greater than A And B")
+// //      : 
+// //     b > c ? console.log("B is Greater than A And C") : console.log("C is Greater than B And B")
 
-// condition ? true block : false block
+// // < , > , <= , >= , != , == , ===
 
-// conditional statements
-// if, if-else, if-elseif , nasted if, switch case, ternary statement (?) 
-// looping statements
-// while, do while, for
+// // let age = 17
+
+// // if(age >= 18){
+// //     console.log("you can drive a car !")
+// // }else{
+// //     console.log("you can't drive a car !")
+// // }
+
+// // if(age <= 18){
+// //     console.log("you are teenager !")
+// // }else{
+// //     console.log("you are not a teenager !")
+// // }
+
+// // even , odd % 2 = 0
+
+// // let number = 9
+
+// // if(number % 2 == 0){
+// //     console.log(`${number} is even !`)
+// // }else{
+// //     console.log(`${number} is odd !`)
+// // }
+
+// // if( 10  == "10" ){
+// //     console.log("they are equal !")
+// // }else{
+// //     console.log("they are not equal !")
+// // }
+
+// // if( 10  === "10" ){
+// //     console.log("they are equal !")
+// // }else{
+// //     console.log("they are not equal !")
+// // }
+
+// // if(number % 2 != 0){
+// //     console.log(`${number} is odd !`)
+// // }else{
+// //     console.log(`${number} is even !`)
+// // }
+
+// // wap in js to find wheater a year entered is leap year or not
+// // condition for a year to be a leap year
+// // year must be evenly divisible by 4 and it can be evenly divisible by 100 but the same time has to be evenly divisible by 400 also then only a year will be called as leap year
+
+// // 2024%100 != 0
 
-// syntax for writting if statements
+// // 2024%400 != 0 
 
-// if(condition){
-//     // true block
-// }
+// // 2024 % 4 == 0
 
-// nextline
+// // let year = 2028
 
-// let a = 100
-// let b = 200
+// // if(year % 100 == 0){
+// //     if(year % 400 == 0){
+// //         console.log(`${year} is a leap year !`)
+// //     }else{
+// //         console.log(`${year} is not a leap year !`)
+// //     }
+// // }else if(year % 4 == 0){
+// //     console.log(`${year} is a leap year !`)
+// // }else{
+// //     console.log(`${year} is not a leap year !`)
+// // }
 
-// if( a > b ){
-//     console.log(`a i.e. ${a} is greater than b i.e. ${b}`)
-// }
+// // logicals oprators AND | OR
 
-// console.log("program completed !")
+// // condition p | condition q | p AND q
+// // true            false       false
+// // false           true        false
+// // false           false       false
+// // true            true        true
 
-// if-else syntax: 
+// // condition p | condition q | p OR q
+// // true            false       true
+// // false           true        true
+// // false           false       false
+// // true            true        true
 
-// if(condition){
-//     // true block
-// }else{
-//     // false block
-// }
 
-// next lines
 
-// let a = 10;
-// let b = 20
+// // if((year % 4 == 0) || ( (year % 100 == 0) && (year % 400 == 0) ) ){
+// //     console.log(`${year} is a leap year !`)
+// // }else{
+// //     console.log(`${year} is not a leap year !`)
+// // }
 
-// if(a < b){
-//     console.log("B is greater than A")
-// }else{
-//     console.log("A is greater than B")
-// }
+// // year % 4 == 0 ||  (year % 100 == 0) && (year % 400 == 0)  ? console.log(`${year} is a leap year !`) : console.log(`${year} is not a leap year !`)
 
-// nasted if syntax
+// // switch case is used to create menu driven programs
 
-// if(condition){
-//     // true block 
-//     if(condition){
-//         // true block
-//     }else{
+// // let choice = 10
 
-//     }
-// }else{
+// // switch(choice){
+// //     case 1: console.log("this is case 1")
+// //     break;
+// //     case 2: console.log("this is case 2")
+// //     break;
+// //     case 3: console.log("this is case 3")
+// //     break;
+// //     case 4: console.log("this is case 4")
+// //     break;
+// //     case 5: console.log("this is case 5")
+// //     break;
+// //     default: console.log("if you are seeing this you may have selected a case that does not exists !")
+// // }
 
-// }
+// // let choice = "x"
 
-// 12 , jee , cet  
+// // switch(choice){
+// //     case "a": console.log("this is case a")
+// //     break;
+// //     case "b": console.log("this is case b")
+// //     break;
+// //     case 3: console.log("this is case 3")
+// //     break;
+// //     case 4: console.log("this is case 4")
+// //     break;
+// //     case 5: console.log("this is case 5")
+// //     break;
+// //     default: console.log("if you are seeing this you may have selected a case that does not exists !")
+// // }
 
-// if (12th pass) {
-//     if (jee pass) {
-//         if (cet pass) {
-//             console.log("addmission granted !")
-//         }else{
-//             console.log("change college !")
-//             console.log("give donation!")
-//         }
-//     }else{
-//         console.log("next attempt")
-//     }
-// }else{
-//     console.log("Re-exam for 12th")
-// }
+// // VOWELS a e i o u
 
-// check wheater the number 1 A is greater than B and C 
+// // let char  = prompt("enter char to check if it is a vowel !")
 
-// let a = 250
-// let b = 20 
-// let c = 30
+// // switch(char){
 
-// if(a > b){
-//     if( a > c ){
-//         console.log("A is greater than B & C.")
-//     }else{
-//         console.log("A is not graeter than B & C")
-//     }
-// }else{
-//     console.log("A is not graeter than B & C")
-// }
+// //     case "a": console.log(`${char} is a vowel !`)
+// //     break;
 
-// if-elseif syntax 
+// //     case "e": console.log(`${char} is a vowel !`)
+// //     break;
 
-// if(condition){
-//     // true block
-// }else if(condition) {
+// //     case "i": console.log(`${char} is a vowel !`)
+// //     break;
 
-// }else{
+// //     case "o": console.log(`${char} is a vowel !`)
+// //     break;
 
-// }
+// //     case "u": console.log(`${char} is a vowel !`)
+// //     break;
 
-// greater of 3 number
+// //     default: console.log(`${char} is a consonant !`)
 
-// let x = window.prompt("enter value of x")
+// // }
 
-// console.log(x)
+// // using switch take user input num1 and num2 type cast them in numbers,
+// // give user a menu + , - , / , * , % , based on the case selection make an arithmatic opration.
 
-// console.log(typeof(x))
+// // STRING manipulation
 
-// x = Number(x)
+// // length property
 
-// console.log(x)
+// // let name = "amey khondekar"
 
-// console.log(typeof(x))
+// // // length property returns nuber of chars present in a string
 
+// // console.log(name.length)
 
-// let y = 200 
-// let z = 300
+// // string methods/function
 
-// if( x > y ){
+// // // amey khond e k  a  r
+// // // 012345678910 11 12 13
+// // // string.charAt(index) return a charc at specified index number
+// // console.log(name.charAt(0))
 
-//     if(x > z){
-//         console.log("X is greater than y and z !")
-//     }else{
-//         console.log("Z is greater than y and x !")
-//     }
+// // // string.indexOf("char") return first occured index number if exists or returns -1
 
-// }else if(y > z){
-//     console.log("Y greater than x and z !")
-// }else{
-//     console.log("z greater than x and y !")
-// }
+// // console.log(name.indexOf('z'))
 
-// ternary statement condition ? true block : flase block
+// // console.log(name.indexOf('e'))
 
-// let a = 200
-// let b = 300
-// let c = 40
+// // // string.lastIndexOf("char") return last occured index number if exists or returns -1
 
-// // a > b ? console.log("a is greater than b") : console.log("b is greater than a") 
+// // console.log(name.lastIndexOf('e'))
 
-// a > b ?
-//     a > c ? console.log("A is Greater than B And C") : console.log("C is Greater than A And B")
-//      : 
-//     b > c ? console.log("B is Greater than A And C") : console.log("C is Greater than B And B")
+// // concatation
 
-// < , > , <= , >= , != , == , ===
+// // let fname = "amey"
+// // let lname = "khondekar"
 
-// let age = 17
+// // let fullName = fname.concat(lname)
 
-// if(age >= 18){
-//     console.log("you can drive a car !")
-// }else{
-//     console.log("you can't drive a car !")
-// }
+// // console.log(fullName)
 
-// if(age <= 18){
-//     console.log("you are teenager !")
-// }else{
-//     console.log("you are not a teenager !")
-// }
+// // to change the case of a string i.e. upper case/lower case/
 
-// even , odd % 2 = 0
+// // let string1 = "THIS IS STRING 1"
 
-let number = 9
+// // console.log(string1)
 
-// if(number % 2 == 0){
-//     console.log(`${number} is even !`)
-// }else{
-//     console.log(`${number} is odd !`)
-// }
+// // // string.toLowerCase()
 
-// if( 10  == "10" ){
-//     console.log("they are equal !")
-// }else{
-//     console.log("they are not equal !")
-// }
+// // console.log(string1.toLowerCase())
 
-// if( 10  === "10" ){
-//     console.log("they are equal !")
-// }else{
-//     console.log("they are not equal !")
-// }
+// // let string2 = "this is string 2"
 
-if(number % 2 != 0){
-    console.log(`${number} is odd !`)
-}else{
-    console.log(`${number} is even !`)
-}
+// // console.log(string2)
+
+// // // string.toUpperCase()
+
+// // console.log(string2.toUpperCase())
+
+// // slice and substring
+
+// let fullName = "amey khondekar"
+
+// //  string.slice( starting index , ending index ) returns a new string with chars of the privious string from starting index to ending index
+
+// let firstName = fullName.slice( 0 , 6 )
+
+// console.log(firstName)
+
+// console.log(fullName)
