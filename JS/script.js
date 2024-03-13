@@ -679,3 +679,153 @@
 // console.log(firstName)
 
 // console.log(fullName)
+
+
+// let fname = fullName.substring(0,4)
+
+// console.log(fname)
+
+// console.log(fullName)
+
+// let data = window.prompt("Enter Something in data !")
+
+// // string.trim() it will remove additional spaces from leading and trailing part
+
+// data = data.trim() 
+
+// console.log(data)
+
+// console.log(data.length)
+
+// let newString = "This is a new string with some more text content that can be a a a displayed !"
+
+// // console.log(newString)
+
+// // // newString = newString.replace("a","A")
+// newString = newString.replaceAll("a","x")
+
+// console.log(newString)
+
+// let str1 = "this is 1"
+// let str2 = "this is 1"
+
+// // console.log(str1.match(str2))
+
+// if(str1 == str2){
+//     console.log(true)
+// }else{
+//     console.log(false)
+// }
+
+// replace single char only, regular exp, match case
+
+// wap to extract first name middle name and last name from a string, take user input format FIRSTNAME MiDDLENAME LASTNAME
+
+// let fullName = window.prompt("Enter Name in First Middle Last")
+
+// if (fullName) {
+
+//     // check the string if it is in format or not
+//     // to deal with this problem we have to count the number of spaces in the string i.e. spaces has to count 2 
+
+//     let count = 0;
+
+//     let pointer = 0
+
+//     while (pointer < fullName.length) {
+
+//         if (fullName.charAt(pointer) == " ") {
+//             // count = count + 1
+//             count++
+//         }
+
+//         pointer++
+
+//     }
+
+//     console.log(count)
+
+//     if (count === 2) {
+
+//         fullName = fullName.trim()
+
+//         let fn, mn, ln
+
+//         console.log(fullName)
+//         console.log(fullName.length)
+
+//         fn = fullName.slice(0, fullName.indexOf(" "))
+
+//         mn = fullName.slice(fullName.indexOf(" "), fullName.lastIndexOf(" "))
+
+//         ln = fullName.slice(fullName.lastIndexOf(" "), fullName.length)
+
+//         console.log(`First Name is ${fn} , Middle name is ${mn} and Last name is ${ln}`)
+//     } else {
+//         console.log("Invalid String Write in First space Middle space Last format  !")
+//     }
+// } else {
+//     console.log("Invalid String !")
+// }
+
+// looping statements
+// while, do while, for,[ forEach , for of, map, filter ] , for in object
+
+// syntax for while loop
+
+// while(condition){
+//     statment
+//     updation in condition
+// }
+
+// let a = 0
+
+// while (a <= 10) {
+//     console.log(a)
+//     a++
+// }
+
+// let a = 10
+
+// while (a >= 0) {
+//     console.log(a)
+//     a--
+// }
+
+// find the count of "a" in this string
+
+// let string = "aabacadaea"
+
+// let count = 0;
+
+// let pointer = 0
+
+// while (pointer < string.length) {
+
+//     if (string.charAt(pointer) == "a") {
+//         // count = count + 1
+//         count++
+//     }
+
+//     pointer++
+
+// }
+
+// console.log(count)
+
+// find odd and even number from 0 to 1000
+
+let number = 0
+
+while (number <= 1000) {
+
+    if(number % 2 == 0){
+        // console.log(`Number ${number} is even !`)
+        console.log("Number "+number+ " is even !")
+    }else{
+        console.log(`Number ${number} is odd !`)
+    }
+
+    number ++
+
+}
