@@ -815,17 +815,196 @@
 
 // find odd and even number from 0 to 1000
 
-let number = 0
+// let number = 0
 
-while (number <= 1000) {
+// while (number <= 1000) {
 
-    if(number % 2 == 0){
-        // console.log(`Number ${number} is even !`)
-        console.log("Number "+number+ " is even !")
-    }else{
-        console.log(`Number ${number} is odd !`)
+//     if(number % 2 == 0){
+//         // console.log(`Number ${number} is even !`)
+//         console.log("Number "+number+ " is even !")
+//     }else{
+//         console.log(`Number ${number} is odd !`)
+//     }
+
+//     number ++
+
+// }
+
+
+// factorials, 5 = 5*4*3*2*1 = 120
+
+// wap in to find factorials for numbers
+
+// let number = 55;
+
+// let org = number
+
+// let fact = 1
+
+// while(number != 0){
+
+//     fact = fact * number //5 , 20 , 60 , 120 , 120
+
+//     number--
+
+// }
+
+// console.log(`factorial of ${org} is ${fact} !`)
+
+
+// wap in js to reverse a numbers
+// let num = 123 //6452
+// let org = num
+// let rev = 0
+// let d;
+
+// while(num != 0){
+//     d = num % 10
+
+//     rev = rev * 10 + d
+
+//     num = parseInt(num / 10)
+// }
+
+// console.log(`reverse of ${org} is ${rev}`)
+
+// palindrome numbers/strings
+
+// let num = 121 //6452
+// let org = num
+// let rev = 0
+// let d;
+
+// while(num != 0){
+//     d = num % 10
+
+//     rev = rev * 10 + d
+
+//     num = parseInt(num / 10)
+// }
+
+// console.log(rev)
+
+// if(org == rev){
+//     console.log(`${org} is a palindrome !`)
+// }else{
+//     console.log(`${org} is not a palindrome !`)
+// }
+
+// sum of digits
+
+// let num = 19
+// let org = num
+
+// let d;
+// let sum = 0
+
+// while(num != 0){
+
+//     d = num % 10
+
+//     sum = sum + d 
+
+//     num = parseInt(num/10)
+
+// }
+
+// console.log(`The sum of digits of ${org} is ${sum} !`)
+
+// armstrong number, sum of digits (with power of numbers of digits) is equal to orgnial number
+// 123 = 1*1*1 + 2*2*2 + 3*3*3 = 1 + 8 + 27 = 36 not a armstrong number
+// 153 = 1*1*1 + 5*5*5 + 3*3*3 = 1 + 125 + 27 = 153 it os armstrong number
+
+// let num = 1634
+
+// let org = num
+// let d
+// let sum = 0
+
+// while(num != 0){
+
+//     d = num % 10
+
+//     sum = sum + (d*d*d*d)
+
+//     num = parseInt(num/10)
+
+// }
+
+// console.log(sum)
+
+// if(org == sum){
+//     console.log(`${org} is a armstrong number !`)
+// }else{
+//     console.log(`${org} is not a armstrong number !`)
+// }
+
+// wap to find numbers of digits in a number
+
+// let num = 12346857434354665456
+
+// let d;
+
+// let digits = 0
+
+// while (num !=0 ) {
+
+//     d = num % 10
+
+//     if (d) {
+//         digits++
+//     }
+
+//     num =  parseInt(num / 10)
+
+// }
+
+// console.log(digits)
+
+// wap to find wheater a any number is armstrong or not 
+
+let num = 4679307774
+
+let org = num
+
+let digits = 0
+
+let d
+
+let sum = 0
+
+while (num != 0) {
+    d = num % 10
+
+    if (d) {
+        digits++
     }
 
-    number ++
+    num = parseInt(num / 10)
+}
 
+console.log(`${org} has ${digits} digits !`)
+
+num = org 
+
+// num = org reset with original value , because num become 0 after first loop
+
+// console.log(num)
+
+while(num != 0){
+
+    d = num % 10
+
+    sum = sum + Math.pow(d,digits)
+
+    num = parseInt(num/10)
+
+}
+
+console.log(sum)
+
+if(org == sum){
+    console.log(`${org} is a armstrong number !`)
+}else{
+    console.log(`${org} is not a armstrong number !`)
 }
