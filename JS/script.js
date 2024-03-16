@@ -1111,4 +1111,5 @@ do{
     chooice = prompt("do you wish to continue ? yes/no(kuch bhi )")
 
 }while( chooice == "yes" )
+
 // make replace all function to replace single element
