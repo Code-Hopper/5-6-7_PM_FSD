@@ -1096,21 +1096,101 @@
 
 // wap to take user input as year then check if leap year, ask again to enter year if continues.
 
-let chooice = "no"
+// let chooice = "no"
 
-do{
+// do{
 
-    let year = Number(prompt("Enter Any Year !"))
+//     let year = Number(prompt("Enter Any Year !"))
 
-    if( (year % 4 == 0) || ((year %100 == 0) &&  (year % 400 == 0) ) ){
-        console.log(`${year} is a leap year !`)
-    }else{
-        console.log(`${year} is not a leap year !`)
-    }
+//     if( (year % 4 == 0) || ((year %100 == 0) &&  (year % 400 == 0) ) ){
+//         console.log(`${year} is a leap year !`)
+//     }else{
+//         console.log(`${year} is not a leap year !`)
+//     }
 
-    chooice = prompt("do you wish to continue ? yes/no(kuch bhi )")
+//     chooice = prompt("do you wish to continue ? yes/no(kuch bhi )")
 
-}while( chooice == "yes" )
+// }while( chooice == "yes" )
 
 // make replace all function to replace single element
 // some edits
+
+// let a = 10
+
+// do {
+//     console.log(a)
+//     a++
+// } while (a <= 5)
+
+// for loop
+
+// syntax : for loop 
+
+// for(initize ; condition ; updation ){
+//     // statement
+// }
+
+// wap to print 1 - 1000 even numbers
+
+// for(let num = 0 ; num < 500 ; num++){
+//     if(num % 2 == 0){
+//         console.log(num)
+//     }
+// }
+
+// let num = 0
+
+// while(num <= 1000){
+//     console.log(num)
+//     num++
+// }
+
+// ARRAY 
+
+// collection of elements stored in continue memory location 
+
+// syntac for creating a array
+
+// let numbers = [1,2,3,4,6,7,8,9,10,11]
+
+// js has dynamic array 
+
+// let array = [true, 1234 , "strign" , {} , [] ]
+
+// js allots 10 memory location for a array 
+
+// 1001,1002,1003,1004,1005,1006,1007,1008,1009,1010
+
+// new length = length * 1.5
+// = 10 * 1.5
+// = 15 * 1.5
+
+// int array[10] = [1,1,+]
+
+// FIFO (First In - First Out) (horizontally stacked)
+
+// let nums = [1,2,3,4,5] 
+
+// length = 5
+// indexes = 5 (0,1,2,3,4)
+
+// indexed data mai add and remove slow hota hai 
+
+// searching, sorting, look up 
+// to add or to remove
+
+// array and it's oprations
+
+let names = ["amey" , "om" , "yash" ]
+
+console.log(names)
+
+// names[index]
+console.log(names[0])
+
+// names of index
+names[0] = "xyz"
+names[1] = "abc"
+
+console.log(names)
+
