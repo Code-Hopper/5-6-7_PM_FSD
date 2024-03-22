@@ -1,158 +1,184 @@
-// // // // // // // alert("hello from script js!")
+// // // // // // // // alert("hello from script js!")
 
-// // // // // // // variables
-// // // // // // // scope name = value;
+// // // // // // // // variables
+// // // // // // // // scope name = value;
 
-// // // // // // // comment in js
+// // // // // // // // comment in js
 
-// // // // // // /*
-// // // // // // this
-// // // // // // is
-// // // // // // multi
-// // // // // // line 
-// // // // // // commet
-// // // // // // */
+// // // // // // // /*
+// // // // // // // this
+// // // // // // // is
+// // // // // // // multi
+// // // // // // // line 
+// // // // // // // commet
+// // // // // // // */
 
-// // // // // // // let a = "10"
-// // // // // // // let b = 10
-// // // // // // // let c = 30
+// // // // // // // // let a = "10"
+// // // // // // // // let b = 10
+// // // // // // // // let c = 30
 
-// // // // // // // oprators
+// // // // // // // // oprators
 
-// // // // // // // 1. Airhtmatics + - / * %
-// // // // // // // 2. increement and decreement ++ , -- (pre,post)
-// // // // // // // 3. Assignment =
-// // // // // // // 4. Conditional/Comparision Oprators < , > , <= , >= , != , == , ===
-// // // // // // // 5. (Logics gates) Logical Oprators &&(AND) , ||(OR) , !(NOT) 
-// // // // // // // 6. Bitwise oprators & , ||
-// // // // // // // 7. Dot notation ' . '
+// // // // // // // // 1. Airhtmatics + - / * %
+// // // // // // // // 2. increement and decreement ++ , -- (pre,post)
+// // // // // // // // 3. Assignment =
+// // // // // // // // 4. Conditional/Comparision Oprators < , > , <= , >= , != , == , ===
+// // // // // // // // 5. (Logics gates) Logical Oprators &&(AND) , ||(OR) , !(NOT) 
+// // // // // // // // 6. Bitwise oprators & , ||
+// // // // // // // // 7. Dot notation ' . '
 
-// // // // // // // opration
+// // // // // // // // opration
 
-// // // // // // // () , [] , {}
+// // // // // // // // () , [] , {}
 
-// // // // // // // data types in js
-// // // // // // // 1)primitve , 2)non-primitve
+// // // // // // // // data types in js
+// // // // // // // // 1)primitve , 2)non-primitve
 
-// // // // // // // 1)  Number (integers, floats, double) (1,1.0,1.514) , String (group of charchters ,a string has to be writing in qoutes "" , '' , `` back ticks ), Boolean (true, false)
+// // // // // // // // 1)  Number (integers, floats, double) (1,1.0,1.514) , String (group of charchters ,a string has to be writing in qoutes "" , '' , `` back ticks ), Boolean (true, false)
 
-// // // // // // // undefined (trying to access before ), null
+// // // // // // // // undefined (trying to access before ), null
 
-// // // // // // // 2) Array, objects, function
-// // // // // // // NaN (not a number)
+// // // // // // // // 2) Array, objects, function
+// // // // // // // // NaN (not a number)
 
-// // // // // // // let z = null
+// // // // // // // // let z = null
 
-// // // // // // let a = 30
-// // // // // // let b = "amey"
-// // // // // // let c = false
+// // // // // // // let a = 30
+// // // // // // // let b = "amey"
+// // // // // // // let c = false
 
-// // // // // // let d = [1,2,3,4]
-// // // // // // let e = {
-// // // // // //     name: "name 1"
-// // // // // // }
+// // // // // // // let d = [1,2,3,4]
+// // // // // // // let e = {
+// // // // // // //     name: "name 1"
+// // // // // // // }
 
-// // // // // // let f = () =>{
-// // // // // //     console.log('hello')
-// // // // // // }
+// // // // // // // let f = () =>{
+// // // // // // //     console.log('hello')
+// // // // // // // }
 
-// // // // // // let g;
+// // // // // // // let g;
 
-// // // // // // let h = null
+// // // // // // // let h = null
 
-// // // // // // let i = Number("a1")
+// // // // // // // let i = Number("a1")
 
-// // // // // // console.log(typeof(a))
-// // // // // // console.log(typeof(b))
-// // // // // // console.log(typeof(c))
-// // // // // // console.log(typeof(d))
-// // // // // // console.log(typeof(e))
-// // // // // // console.log(typeof(f))
-// // // // // // console.log(typeof(g))
-// // // // // // console.log(typeof(h))
-// // // // // // console.log(i)
+// // // // // // // console.log(typeof(a))
+// // // // // // // console.log(typeof(b))
+// // // // // // // console.log(typeof(c))
+// // // // // // // console.log(typeof(d))
+// // // // // // // console.log(typeof(e))
+// // // // // // // console.log(typeof(f))
+// // // // // // // console.log(typeof(g))
+// // // // // // // console.log(typeof(h))
+// // // // // // // console.log(i)
 
-// // // // // // output and input function
+// // // // // // // output and input function
 
-// // // // // // built-in (jo js mai hai)  function output function
-// // // // // // console.log() , window.alert() , document.write()
+// // // // // // // built-in (jo js mai hai)  function output function
+// // // // // // // console.log() , window.alert() , document.write()
 
-// // // // // // they accept any data string, number, boolean
+// // // // // // // they accept any data string, number, boolean
 
-// // // // // // console.log("hello world !")
-// // // // // // console.log("hello world  2 !")
+// // // // // // // console.log("hello world !")
+// // // // // // // console.log("hello world  2 !")
 
-// // // // // // console.warn("this is warning !")
-// // // // // // console.error("this is warning !")
-// // // // // // console.info("this is warning !")
-// // // // // // console.table([1,2,3])
+// // // // // // // console.warn("this is warning !")
+// // // // // // // console.error("this is warning !")
+// // // // // // // console.info("this is warning !")
+// // // // // // // console.table([1,2,3])
 
-// // // // // // window.alert("hello !")
+// // // // // // // window.alert("hello !")
 
-// // // // // // document.write("this is something !") // document means html docs
+// // // // // // // document.write("this is something !") // document means html docs
 
-// // // // // // built-in input function
+// // // // // // // built-in input function
 
-// // // // // let data = window.prompt("")
-// // // // // // prompt function will also returns us a string 
-// // // // // console.log(data)
-// // // // // console.log(typeof(data))
+// // // // // // let data = window.prompt("")
+// // // // // // // prompt function will also returns us a string 
+// // // // // // console.log(data)
+// // // // // // console.log(typeof(data))
 
 
-// // // // // // type casting changing the data type of a certain data
+// // // // // // // type casting changing the data type of a certain data
 
-// // // // // // Number -> String 
-// // // // // // String -> Number(conditions applied)
-// // // // // // Number -> Boolean
-// // // // // // Boolean -> Number
-// // // // // // Boolean -> String
-// // // // // // String -> Boolean
+// // // // // // // Number -> String 
+// // // // // // // String -> Number(conditions applied)
+// // // // // // // Number -> Boolean
+// // // // // // // Boolean -> Number
+// // // // // // // Boolean -> String
+// // // // // // // String -> Boolean
 
-// // // // // // using function keyword/normal function
-// // // // // // function doSomething () {
+// // // // // // // using function keyword/normal function
+// // // // // // // function doSomething () {
 
-// // // // // // }
+// // // // // // // }
 
-// // // // // // ES6 Module/Arrow Function/Call Back
-// // // // // // let doSomething = () =>{
+// // // // // // // ES6 Module/Arrow Function/Call Back
+// // // // // // // let doSomething = () =>{
 
-// // // // // // }
+// // // // // // // }
 
-// // // // // type casting
+// // // // // // type casting
 
-// // // // // let data = 1
+// // // // // // let data = 1
+
+// // // // // // console.log("before casting")
+// // // // // // console.log(typeof(data))
+// // // // // // console.log(data)
+
+// // // // // // // number ->  string
+// // // // // // // number ->  boolean
+
+// // // // // // // re-assignment
+// // // // // // data = String(data)
+// // // // // // console.log("after casting")
+// // // // // // console.log(typeof(data))
+// // // // // // console.log(data)
+
+
+// // // // // // data = Boolean(data)
+// // // // // // console.log("after casting")
+// // // // // // console.log(typeof(data))
+
+// // // // // // // if value exists then true else false
+
+// // // // // // console.log(data)
+
+
+// // // // // // let data = ""
+
+// // // // // // console.log("before casting")
+// // // // // // console.log(typeof(data))
+// // // // // // console.log(data)
+
+// // // // // // // string ->  number
+// // // // // // // string ->  boolean
+
+// // // // // // // re-assignment
+// // // // // // // data = Number(data)
+// // // // // // // console.log("after casting")
+// // // // // // // console.log(typeof(data))
+// // // // // // // console.log(data)
+
+// // // // // // // wheneven we try to cast a alpha numeric strings to number we will also get NaN(Not a Number)
+
+
+// // // // // // data = Boolean(data)
+// // // // // // console.log("after casting")
+// // // // // // console.log(typeof(data))
+
+// // // // // // // if value exists then true else false
+
+// // // // // // console.log(data)
+
+// // // // // let data = false
 
 // // // // // console.log("before casting")
 // // // // // console.log(typeof(data))
 // // // // // console.log(data)
 
-// // // // // // number ->  string
-// // // // // // number ->  boolean
-
-// // // // // // re-assignment
-// // // // // data = String(data)
-// // // // // console.log("after casting")
-// // // // // console.log(typeof(data))
-// // // // // console.log(data)
-
-
-// // // // // data = Boolean(data)
-// // // // // console.log("after casting")
-// // // // // console.log(typeof(data))
-
-// // // // // // if value exists then true else false
-
-// // // // // console.log(data)
-
-
-// // // // // let data = ""
-
-// // // // // console.log("before casting")
-// // // // // console.log(typeof(data))
-// // // // // console.log(data)
-
-// // // // // // string ->  number
-// // // // // // string ->  boolean
+// // // // // // boolean ->  number
+// // // // // // boolean ->  string
 
 // // // // // // re-assignment
 // // // // // // data = Number(data)
@@ -160,772 +186,816 @@
 // // // // // // console.log(typeof(data))
 // // // // // // console.log(data)
 
-// // // // // // wheneven we try to cast a alpha numeric strings to number we will also get NaN(Not a Number)
+// // // // // // if value is true then number casting becomes 1
+// // // // // // if value is false then number casting becomes 0
 
-
-// // // // // data = Boolean(data)
+// // // // // data = String(data)
 // // // // // console.log("after casting")
 // // // // // console.log(typeof(data))
 
 // // // // // // if value exists then true else false
 
+// // // // // // false - boolean
+// // // // // // "false" - string
+
 // // // // // console.log(data)
 
-// // // // let data = false
+// // // // // // functions involved in casting 
 
-// // // // console.log("before casting")
-// // // // console.log(typeof(data))
-// // // // console.log(data)
+// // // // // Number(data)(this function casts to number) , String(data), Boolean(data)
 
-// // // // // boolean ->  number
-// // // // // boolean ->  string
+// // // // // hoisting in javascript
+// // // // // default thing in js that it hoist the declaration part above all the scopes
 
-// // // // // re-assignment
-// // // // // data = Number(data)
-// // // // // console.log("after casting")
-// // // // // console.log(typeof(data))
-// // // // // console.log(data)
+// // // // // console.log(x) 
+// // // // // console.log will give undefined because only let x is rised above
+// // // // // var x = 5
 
-// // // // // if value is true then number casting becomes 1
-// // // // // if value is false then number casting becomes 0
+// // // // // ++(+1), --(-1) | pre , post  
 
-// // // // data = String(data)
-// // // // console.log("after casting")
-// // // // console.log(typeof(data))
+// // // // // let x = 10
 
-// // // // // if value exists then true else false
+// // // // // console.log(x++)
+// // // // // console.log(x)
+// // // // // console.log(x)
 
-// // // // // false - boolean
-// // // // // "false" - string
+// // // // // console.log(++x)
+// // // // // console.log(x)
+// // // // // console.log(x)
 
-// // // // console.log(data)
+// // // // // console.log(x--)
+// // // // // console.log(x)
+// // // // // console.log(x)
 
-// // // // // functions involved in casting 
+// // // // // console.log(--x)
+// // // // // console.log(x)
+// // // // // console.log(x)
 
-// // // // Number(data)(this function casts to number) , String(data), Boolean(data)
+// // // // // airthmatics + , - , * , / , %
 
-// // // // hoisting in javascript
-// // // // default thing in js that it hoist the declaration part above all the scopes
+// // // // // let a = 10
+// // // // // let b = 20
 
-// // // // console.log(x) 
-// // // // console.log will give undefined because only let x is rised above
-// // // // var x = 5
+// // // // // let c = a + b
+// // // // // console.log(c)
 
-// // // // ++(+1), --(-1) | pre , post  
+// // // // // c = a - b
+// // // // // console.log(c)
 
-// // // // let x = 10
+// // // // // c = a * b
+// // // // // console.log(c)
 
-// // // // console.log(x++)
-// // // // console.log(x)
-// // // // console.log(x)
+// // // // // c = a / b
+// // // // // console.log(c)
 
-// // // // console.log(++x)
-// // // // console.log(x)
-// // // // console.log(x)
+// // // // // c = a % b
+// // // // // console.log(c)
 
-// // // // console.log(x--)
-// // // // console.log(x)
-// // // // console.log(x)
+// // // // // a += b
+// // // // // a = a + b
+// // // // // a -= b
+// // // // // a *= b
+// // // // // a /= b
+// // // // // a %= b 
+// // // // // a = a % b
+// // // // // console.log(a)
 
-// // // // console.log(--x)
-// // // // console.log(x)
-// // // // console.log(x)
+// // // // // string concatation
+// // // // // joining string with variables, number, another string
 
-// // // // airthmatics + , - , * , / , %
+// // // // // let name = "om"
+// // // // // let age = 12
+// // // // // console.log("hello my name is " + name + ", my age is " + age)
 
-// // // // let a = 10
+// // // // // document.write("hello my name is " + name + ", my age is " + age)
+
+// // // // // window.alert("hello my name is " + name + ", my age is " + age)
+
+// // // // // window.prompt("hello my name is " + name + ", my age is " + age)
+
+// // // // // string + string = string 
+
+// // // // // string + number = string 
+
+// // // // // number + string = string
+
+// // // // // number + number = number
+
+// // // // // console.log(5+5)
+// // // // // console.log("5"+"5")
+// // // // // console.log("5"+5)
+// // // // // console.log(5+"5")
+
+// // // // let num1 = window.prompt("Enter Number 1")
+// // // // console.log(typeof(num1))
+
+// // // // num1 = Number(num1)
+
+// // // // console.log(typeof(num1))
+
+
+// // // // // let num2 = window.prompt("Enter Number 2")
+// // // // // console.log(typeof(num2))
+
+// // // // // num2 = Number(num2)
+
+// // // // // console.log(typeof(num2))
+
+// // // // let num2 = Number(window.prompt("Enter Number 2"))
+// // // // console.log(typeof(num2))
+
+// // // // console.log(num1 + num2)
+
+// // // // ES6 - template litrals
+
+// // // // let name = "amey"
+
+// // // // let age = "21"
+
+// // // // console.log(`hello my name is ${name}, my age is ${age} `)
+
+// // // // ternary oprator - ?
+
+// // // // condition ? true block : false block
+
+// // // // conditional statements
+// // // // if, if-else, if-elseif , nasted if, switch case, ternary statement (?) 
+// // // // looping statements
+// // // // while, do while, for
+
+// // // // syntax for writting if statements
+
+// // // // if(condition){
+// // // //     // true block
+// // // // }
+
+// // // // nextline
+
+// // // // let a = 100
+// // // // let b = 200
+
+// // // // if( a > b ){
+// // // //     console.log(`a i.e. ${a} is greater than b i.e. ${b}`)
+// // // // }
+
+// // // // console.log("program completed !")
+
+// // // // if-else syntax: 
+
+// // // // if(condition){
+// // // //     // true block
+// // // // }else{
+// // // //     // false block
+// // // // }
+
+// // // // next lines
+
+// // // // let a = 10;
 // // // // let b = 20
 
-// // // // let c = a + b
-// // // // console.log(c)
+// // // // if(a < b){
+// // // //     console.log("B is greater than A")
+// // // // }else{
+// // // //     console.log("A is greater than B")
+// // // // }
 
-// // // // c = a - b
-// // // // console.log(c)
+// // // // nasted if syntax
 
-// // // // c = a * b
-// // // // console.log(c)
+// // // // if(condition){
+// // // //     // true block 
+// // // //     if(condition){
+// // // //         // true block
+// // // //     }else{
 
-// // // // c = a / b
-// // // // console.log(c)
+// // // //     }
+// // // // }else{
 
-// // // // c = a % b
-// // // // console.log(c)
+// // // // }
 
-// // // // a += b
-// // // // a = a + b
-// // // // a -= b
-// // // // a *= b
-// // // // a /= b
-// // // // a %= b 
-// // // // a = a % b
-// // // // console.log(a)
+// // // // 12 , jee , cet  
 
-// // // // string concatation
-// // // // joining string with variables, number, another string
+// // // // if (12th pass) {
+// // // //     if (jee pass) {
+// // // //         if (cet pass) {
+// // // //             console.log("addmission granted !")
+// // // //         }else{
+// // // //             console.log("change college !")
+// // // //             console.log("give donation!")
+// // // //         }
+// // // //     }else{
+// // // //         console.log("next attempt")
+// // // //     }
+// // // // }else{
+// // // //     console.log("Re-exam for 12th")
+// // // // }
 
-// // // // let name = "om"
-// // // // let age = 12
-// // // // console.log("hello my name is " + name + ", my age is " + age)
+// // // // check wheater the number 1 A is greater than B and C 
 
-// // // // document.write("hello my name is " + name + ", my age is " + age)
+// // // // let a = 250
+// // // // let b = 20 
+// // // // let c = 30
 
-// // // // window.alert("hello my name is " + name + ", my age is " + age)
+// // // // if(a > b){
+// // // //     if( a > c ){
+// // // //         console.log("A is greater than B & C.")
+// // // //     }else{
+// // // //         console.log("A is not graeter than B & C")
+// // // //     }
+// // // // }else{
+// // // //     console.log("A is not graeter than B & C")
+// // // // }
 
-// // // // window.prompt("hello my name is " + name + ", my age is " + age)
+// // // // if-elseif syntax 
 
-// // // // string + string = string 
+// // // // if(condition){
+// // // //     // true block
+// // // // }else if(condition) {
 
-// // // // string + number = string 
+// // // // }else{
 
-// // // // number + string = string
+// // // // }
 
-// // // // number + number = number
+// // // // greater of 3 number
 
-// // // // console.log(5+5)
-// // // // console.log("5"+"5")
-// // // // console.log("5"+5)
-// // // // console.log(5+"5")
+// // // // let x = window.prompt("enter value of x")
 
-// // // let num1 = window.prompt("Enter Number 1")
-// // // console.log(typeof(num1))
+// // // // console.log(x)
 
-// // // num1 = Number(num1)
+// // // // console.log(typeof(x))
 
-// // // console.log(typeof(num1))
+// // // // x = Number(x)
 
+// // // // console.log(x)
 
-// // // // let num2 = window.prompt("Enter Number 2")
-// // // // console.log(typeof(num2))
+// // // // console.log(typeof(x))
 
-// // // // num2 = Number(num2)
 
-// // // // console.log(typeof(num2))
+// // // // let y = 200 
+// // // // let z = 300
 
-// // // let num2 = Number(window.prompt("Enter Number 2"))
-// // // console.log(typeof(num2))
+// // // // if( x > y ){
 
-// // // console.log(num1 + num2)
+// // // //     if(x > z){
+// // // //         console.log("X is greater than y and z !")
+// // // //     }else{
+// // // //         console.log("Z is greater than y and x !")
+// // // //     }
 
-// // // ES6 - template litrals
+// // // // }else if(y > z){
+// // // //     console.log("Y greater than x and z !")
+// // // // }else{
+// // // //     console.log("z greater than x and y !")
+// // // // }
 
-// // // let name = "amey"
+// // // // ternary statement condition ? true block : flase block
 
-// // // let age = "21"
+// // // // let a = 200
+// // // // let b = 300
+// // // // let c = 40
 
-// // // console.log(`hello my name is ${name}, my age is ${age} `)
+// // // // // a > b ? console.log("a is greater than b") : console.log("b is greater than a") 
 
-// // // ternary oprator - ?
+// // // // a > b ?
+// // // //     a > c ? console.log("A is Greater than B And C") : console.log("C is Greater than A And B")
+// // // //      : 
+// // // //     b > c ? console.log("B is Greater than A And C") : console.log("C is Greater than B And B")
 
-// // // condition ? true block : false block
+// // // // < , > , <= , >= , != , == , ===
 
-// // // conditional statements
-// // // if, if-else, if-elseif , nasted if, switch case, ternary statement (?) 
-// // // looping statements
-// // // while, do while, for
+// // // // let age = 17
+
+// // // // if(age >= 18){
+// // // //     console.log("you can drive a car !")
+// // // // }else{
+// // // //     console.log("you can't drive a car !")
+// // // // }
+
+// // // // if(age <= 18){
+// // // //     console.log("you are teenager !")
+// // // // }else{
+// // // //     console.log("you are not a teenager !")
+// // // // }
+
+// // // // even , odd % 2 = 0
+
+// // // // let number = 9
+
+// // // // if(number % 2 == 0){
+// // // //     console.log(`${number} is even !`)
+// // // // }else{
+// // // //     console.log(`${number} is odd !`)
+// // // // }
+
+// // // // if( 10  == "10" ){
+// // // //     console.log("they are equal !")
+// // // // }else{
+// // // //     console.log("they are not equal !")
+// // // // }
+
+// // // // if( 10  === "10" ){
+// // // //     console.log("they are equal !")
+// // // // }else{
+// // // //     console.log("they are not equal !")
+// // // // }
+
+// // // // if(number % 2 != 0){
+// // // //     console.log(`${number} is odd !`)
+// // // // }else{
+// // // //     console.log(`${number} is even !`)
+// // // // }
+
+// // // // wap in js to find wheater a year entered is leap year or not
+// // // // condition for a year to be a leap year
+// // // // year must be evenly divisible by 4 and it can be evenly divisible by 100 but the same time has to be evenly divisible by 400 also then only a year will be called as leap year
+
+// // // // 2024%100 != 0
 
-// // // syntax for writting if statements
+// // // // 2024%400 != 0 
 
-// // // if(condition){
-// // //     // true block
-// // // }
+// // // // 2024 % 4 == 0
 
-// // // nextline
+// // // // let year = 2028
 
-// // // let a = 100
-// // // let b = 200
+// // // // if(year % 100 == 0){
+// // // //     if(year % 400 == 0){
+// // // //         console.log(`${year} is a leap year !`)
+// // // //     }else{
+// // // //         console.log(`${year} is not a leap year !`)
+// // // //     }
+// // // // }else if(year % 4 == 0){
+// // // //     console.log(`${year} is a leap year !`)
+// // // // }else{
+// // // //     console.log(`${year} is not a leap year !`)
+// // // // }
 
-// // // if( a > b ){
-// // //     console.log(`a i.e. ${a} is greater than b i.e. ${b}`)
-// // // }
+// // // // logicals oprators AND | OR
 
-// // // console.log("program completed !")
+// // // // condition p | condition q | p AND q
+// // // // true            false       false
+// // // // false           true        false
+// // // // false           false       false
+// // // // true            true        true
 
-// // // if-else syntax: 
+// // // // condition p | condition q | p OR q
+// // // // true            false       true
+// // // // false           true        true
+// // // // false           false       false
+// // // // true            true        true
 
-// // // if(condition){
-// // //     // true block
-// // // }else{
-// // //     // false block
-// // // }
 
-// // // next lines
 
-// // // let a = 10;
-// // // let b = 20
+// // // // if((year % 4 == 0) || ( (year % 100 == 0) && (year % 400 == 0) ) ){
+// // // //     console.log(`${year} is a leap year !`)
+// // // // }else{
+// // // //     console.log(`${year} is not a leap year !`)
+// // // // }
 
-// // // if(a < b){
-// // //     console.log("B is greater than A")
-// // // }else{
-// // //     console.log("A is greater than B")
-// // // }
+// // // // year % 4 == 0 ||  (year % 100 == 0) && (year % 400 == 0)  ? console.log(`${year} is a leap year !`) : console.log(`${year} is not a leap year !`)
 
-// // // nasted if syntax
+// // // // switch case is used to create menu driven programs
 
-// // // if(condition){
-// // //     // true block 
-// // //     if(condition){
-// // //         // true block
-// // //     }else{
+// // // // let choice = 10
 
-// // //     }
-// // // }else{
+// // // // switch(choice){
+// // // //     case 1: console.log("this is case 1")
+// // // //     break;
+// // // //     case 2: console.log("this is case 2")
+// // // //     break;
+// // // //     case 3: console.log("this is case 3")
+// // // //     break;
+// // // //     case 4: console.log("this is case 4")
+// // // //     break;
+// // // //     case 5: console.log("this is case 5")
+// // // //     break;
+// // // //     default: console.log("if you are seeing this you may have selected a case that does not exists !")
+// // // // }
 
-// // // }
+// // // // let choice = "x"
 
-// // // 12 , jee , cet  
+// // // // switch(choice){
+// // // //     case "a": console.log("this is case a")
+// // // //     break;
+// // // //     case "b": console.log("this is case b")
+// // // //     break;
+// // // //     case 3: console.log("this is case 3")
+// // // //     break;
+// // // //     case 4: console.log("this is case 4")
+// // // //     break;
+// // // //     case 5: console.log("this is case 5")
+// // // //     break;
+// // // //     default: console.log("if you are seeing this you may have selected a case that does not exists !")
+// // // // }
 
-// // // if (12th pass) {
-// // //     if (jee pass) {
-// // //         if (cet pass) {
-// // //             console.log("addmission granted !")
-// // //         }else{
-// // //             console.log("change college !")
-// // //             console.log("give donation!")
-// // //         }
-// // //     }else{
-// // //         console.log("next attempt")
-// // //     }
-// // // }else{
-// // //     console.log("Re-exam for 12th")
-// // // }
+// // // // VOWELS a e i o u
 
-// // // check wheater the number 1 A is greater than B and C 
+// // // // let char  = prompt("enter char to check if it is a vowel !")
 
-// // // let a = 250
-// // // let b = 20 
-// // // let c = 30
+// // // // switch(char){
 
-// // // if(a > b){
-// // //     if( a > c ){
-// // //         console.log("A is greater than B & C.")
-// // //     }else{
-// // //         console.log("A is not graeter than B & C")
-// // //     }
-// // // }else{
-// // //     console.log("A is not graeter than B & C")
-// // // }
+// // // //     case "a": console.log(`${char} is a vowel !`)
+// // // //     break;
 
-// // // if-elseif syntax 
+// // // //     case "e": console.log(`${char} is a vowel !`)
+// // // //     break;
 
-// // // if(condition){
-// // //     // true block
-// // // }else if(condition) {
+// // // //     case "i": console.log(`${char} is a vowel !`)
+// // // //     break;
 
-// // // }else{
+// // // //     case "o": console.log(`${char} is a vowel !`)
+// // // //     break;
 
-// // // }
+// // // //     case "u": console.log(`${char} is a vowel !`)
+// // // //     break;
 
-// // // greater of 3 number
+// // // //     default: console.log(`${char} is a consonant !`)
 
-// // // let x = window.prompt("enter value of x")
+// // // // }
 
-// // // console.log(x)
+// // // // using switch take user input num1 and num2 type cast them in numbers,
+// // // // give user a menu + , - , / , * , % , based on the case selection make an arithmatic opration.
 
-// // // console.log(typeof(x))
+// // // // STRING manipulation
 
-// // // x = Number(x)
+// // // // length property
 
-// // // console.log(x)
+// // // // let name = "amey khondekar"
 
-// // // console.log(typeof(x))
+// // // // // length property returns nuber of chars present in a string
 
+// // // // console.log(name.length)
 
-// // // let y = 200 
-// // // let z = 300
+// // // // string methods/function
 
-// // // if( x > y ){
+// // // // // amey khond e k  a  r
+// // // // // 012345678910 11 12 13
+// // // // // string.charAt(index) return a charc at specified index number
+// // // // console.log(name.charAt(0))
 
-// // //     if(x > z){
-// // //         console.log("X is greater than y and z !")
-// // //     }else{
-// // //         console.log("Z is greater than y and x !")
-// // //     }
+// // // // // string.indexOf("char") return first occured index number if exists or returns -1
 
-// // // }else if(y > z){
-// // //     console.log("Y greater than x and z !")
-// // // }else{
-// // //     console.log("z greater than x and y !")
-// // // }
+// // // // console.log(name.indexOf('z'))
 
-// // // ternary statement condition ? true block : flase block
+// // // // console.log(name.indexOf('e'))
 
-// // // let a = 200
-// // // let b = 300
-// // // let c = 40
+// // // // // string.lastIndexOf("char") return last occured index number if exists or returns -1
 
-// // // // a > b ? console.log("a is greater than b") : console.log("b is greater than a") 
+// // // // console.log(name.lastIndexOf('e'))
 
-// // // a > b ?
-// // //     a > c ? console.log("A is Greater than B And C") : console.log("C is Greater than A And B")
-// // //      : 
-// // //     b > c ? console.log("B is Greater than A And C") : console.log("C is Greater than B And B")
+// // // // concatation
 
-// // // < , > , <= , >= , != , == , ===
+// // // // let fname = "amey"
+// // // // let lname = "khondekar"
 
-// // // let age = 17
+// // // // let fullName = fname.concat(lname)
 
-// // // if(age >= 18){
-// // //     console.log("you can drive a car !")
-// // // }else{
-// // //     console.log("you can't drive a car !")
-// // // }
+// // // // console.log(fullName)
 
-// // // if(age <= 18){
-// // //     console.log("you are teenager !")
-// // // }else{
-// // //     console.log("you are not a teenager !")
-// // // }
+// // // // to change the case of a string i.e. upper case/lower case/
 
-// // // even , odd % 2 = 0
+// // // // let string1 = "THIS IS STRING 1"
 
-// // // let number = 9
+// // // // console.log(string1)
 
-// // // if(number % 2 == 0){
-// // //     console.log(`${number} is even !`)
-// // // }else{
-// // //     console.log(`${number} is odd !`)
-// // // }
+// // // // // string.toLowerCase()
 
-// // // if( 10  == "10" ){
-// // //     console.log("they are equal !")
-// // // }else{
-// // //     console.log("they are not equal !")
-// // // }
+// // // // console.log(string1.toLowerCase())
 
-// // // if( 10  === "10" ){
-// // //     console.log("they are equal !")
-// // // }else{
-// // //     console.log("they are not equal !")
-// // // }
+// // // // let string2 = "this is string 2"
 
-// // // if(number % 2 != 0){
-// // //     console.log(`${number} is odd !`)
-// // // }else{
-// // //     console.log(`${number} is even !`)
-// // // }
+// // // // console.log(string2)
 
-// // // wap in js to find wheater a year entered is leap year or not
-// // // condition for a year to be a leap year
-// // // year must be evenly divisible by 4 and it can be evenly divisible by 100 but the same time has to be evenly divisible by 400 also then only a year will be called as leap year
+// // // // // string.toUpperCase()
 
-// // // 2024%100 != 0
+// // // // console.log(string2.toUpperCase())
 
-// // // 2024%400 != 0 
+// // // // slice and substring
 
-// // // 2024 % 4 == 0
+// // // let fullName = "amey khondekar"
 
-// // // let year = 2028
+// // // //  string.slice( starting index , ending index ) returns a new string with chars of the privious string from starting index to ending index
 
-// // // if(year % 100 == 0){
-// // //     if(year % 400 == 0){
-// // //         console.log(`${year} is a leap year !`)
-// // //     }else{
-// // //         console.log(`${year} is not a leap year !`)
-// // //     }
-// // // }else if(year % 4 == 0){
-// // //     console.log(`${year} is a leap year !`)
-// // // }else{
-// // //     console.log(`${year} is not a leap year !`)
-// // // }
+// // // let firstName = fullName.slice( 0 , 6 )
 
-// // // logicals oprators AND | OR
-
-// // // condition p | condition q | p AND q
-// // // true            false       false
-// // // false           true        false
-// // // false           false       false
-// // // true            true        true
-
-// // // condition p | condition q | p OR q
-// // // true            false       true
-// // // false           true        true
-// // // false           false       false
-// // // true            true        true
-
-
-
-// // // if((year % 4 == 0) || ( (year % 100 == 0) && (year % 400 == 0) ) ){
-// // //     console.log(`${year} is a leap year !`)
-// // // }else{
-// // //     console.log(`${year} is not a leap year !`)
-// // // }
-
-// // // year % 4 == 0 ||  (year % 100 == 0) && (year % 400 == 0)  ? console.log(`${year} is a leap year !`) : console.log(`${year} is not a leap year !`)
-
-// // // switch case is used to create menu driven programs
-
-// // // let choice = 10
-
-// // // switch(choice){
-// // //     case 1: console.log("this is case 1")
-// // //     break;
-// // //     case 2: console.log("this is case 2")
-// // //     break;
-// // //     case 3: console.log("this is case 3")
-// // //     break;
-// // //     case 4: console.log("this is case 4")
-// // //     break;
-// // //     case 5: console.log("this is case 5")
-// // //     break;
-// // //     default: console.log("if you are seeing this you may have selected a case that does not exists !")
-// // // }
-
-// // // let choice = "x"
-
-// // // switch(choice){
-// // //     case "a": console.log("this is case a")
-// // //     break;
-// // //     case "b": console.log("this is case b")
-// // //     break;
-// // //     case 3: console.log("this is case 3")
-// // //     break;
-// // //     case 4: console.log("this is case 4")
-// // //     break;
-// // //     case 5: console.log("this is case 5")
-// // //     break;
-// // //     default: console.log("if you are seeing this you may have selected a case that does not exists !")
-// // // }
-
-// // // VOWELS a e i o u
-
-// // // let char  = prompt("enter char to check if it is a vowel !")
-
-// // // switch(char){
-
-// // //     case "a": console.log(`${char} is a vowel !`)
-// // //     break;
-
-// // //     case "e": console.log(`${char} is a vowel !`)
-// // //     break;
-
-// // //     case "i": console.log(`${char} is a vowel !`)
-// // //     break;
-
-// // //     case "o": console.log(`${char} is a vowel !`)
-// // //     break;
-
-// // //     case "u": console.log(`${char} is a vowel !`)
-// // //     break;
-
-// // //     default: console.log(`${char} is a consonant !`)
-
-// // // }
-
-// // // using switch take user input num1 and num2 type cast them in numbers,
-// // // give user a menu + , - , / , * , % , based on the case selection make an arithmatic opration.
-
-// // // STRING manipulation
-
-// // // length property
-
-// // // let name = "amey khondekar"
-
-// // // // length property returns nuber of chars present in a string
-
-// // // console.log(name.length)
-
-// // // string methods/function
-
-// // // // amey khond e k  a  r
-// // // // 012345678910 11 12 13
-// // // // string.charAt(index) return a charc at specified index number
-// // // console.log(name.charAt(0))
-
-// // // // string.indexOf("char") return first occured index number if exists or returns -1
-
-// // // console.log(name.indexOf('z'))
-
-// // // console.log(name.indexOf('e'))
-
-// // // // string.lastIndexOf("char") return last occured index number if exists or returns -1
-
-// // // console.log(name.lastIndexOf('e'))
-
-// // // concatation
-
-// // // let fname = "amey"
-// // // let lname = "khondekar"
-
-// // // let fullName = fname.concat(lname)
+// // // console.log(firstName)
 
 // // // console.log(fullName)
 
-// // // to change the case of a string i.e. upper case/lower case/
 
-// // // let string1 = "THIS IS STRING 1"
+// // // let fname = fullName.substring(0,4)
 
-// // // console.log(string1)
+// // // console.log(fname)
 
-// // // // string.toLowerCase()
+// // // console.log(fullName)
 
-// // // console.log(string1.toLowerCase())
+// // // let data = window.prompt("Enter Something in data !")
 
-// // // let string2 = "this is string 2"
+// // // // string.trim() it will remove additional spaces from leading and trailing part
 
-// // // console.log(string2)
+// // // data = data.trim() 
 
-// // // // string.toUpperCase()
+// // // console.log(data)
 
-// // // console.log(string2.toUpperCase())
+// // // console.log(data.length)
 
-// // // slice and substring
+// // // let newString = "This is a new string with some more text content that can be a a a displayed !"
 
-// // let fullName = "amey khondekar"
+// // // // console.log(newString)
 
-// // //  string.slice( starting index , ending index ) returns a new string with chars of the privious string from starting index to ending index
-
-// // let firstName = fullName.slice( 0 , 6 )
-
-// // console.log(firstName)
-
-// // console.log(fullName)
-
-
-// // let fname = fullName.substring(0,4)
-
-// // console.log(fname)
-
-// // console.log(fullName)
-
-// // let data = window.prompt("Enter Something in data !")
-
-// // // string.trim() it will remove additional spaces from leading and trailing part
-
-// // data = data.trim() 
-
-// // console.log(data)
-
-// // console.log(data.length)
-
-// // let newString = "This is a new string with some more text content that can be a a a displayed !"
+// // // // // newString = newString.replace("a","A")
+// // // newString = newString.replaceAll("a","x")
 
 // // // console.log(newString)
 
-// // // // newString = newString.replace("a","A")
-// // newString = newString.replaceAll("a","x")
+// // // let str1 = "this is 1"
+// // // let str2 = "this is 1"
 
-// // console.log(newString)
+// // // // console.log(str1.match(str2))
 
-// // let str1 = "this is 1"
-// // let str2 = "this is 1"
+// // // if(str1 == str2){
+// // //     console.log(true)
+// // // }else{
+// // //     console.log(false)
+// // // }
 
-// // // console.log(str1.match(str2))
+// // // replace single char only, regular exp, match case
 
-// // if(str1 == str2){
-// //     console.log(true)
-// // }else{
-// //     console.log(false)
-// // }
+// // // wap to extract first name middle name and last name from a string, take user input format FIRSTNAME MiDDLENAME LASTNAME
 
-// // replace single char only, regular exp, match case
+// // // let fullName = window.prompt("Enter Name in First Middle Last")
 
-// // wap to extract first name middle name and last name from a string, take user input format FIRSTNAME MiDDLENAME LASTNAME
+// // // if (fullName) {
 
-// // let fullName = window.prompt("Enter Name in First Middle Last")
+// // //     // check the string if it is in format or not
+// // //     // to deal with this problem we have to count the number of spaces in the string i.e. spaces has to count 2 
 
-// // if (fullName) {
+// // //     let count = 0;
 
-// //     // check the string if it is in format or not
-// //     // to deal with this problem we have to count the number of spaces in the string i.e. spaces has to count 2 
+// // //     let pointer = 0
 
-// //     let count = 0;
+// // //     while (pointer < fullName.length) {
 
-// //     let pointer = 0
+// // //         if (fullName.charAt(pointer) == " ") {
+// // //             // count = count + 1
+// // //             count++
+// // //         }
 
-// //     while (pointer < fullName.length) {
+// // //         pointer++
 
-// //         if (fullName.charAt(pointer) == " ") {
-// //             // count = count + 1
-// //             count++
-// //         }
+// // //     }
 
-// //         pointer++
+// // //     console.log(count)
 
-// //     }
+// // //     if (count === 2) {
 
-// //     console.log(count)
+// // //         fullName = fullName.trim()
 
-// //     if (count === 2) {
+// // //         let fn, mn, ln
 
-// //         fullName = fullName.trim()
+// // //         console.log(fullName)
+// // //         console.log(fullName.length)
 
-// //         let fn, mn, ln
+// // //         fn = fullName.slice(0, fullName.indexOf(" "))
 
-// //         console.log(fullName)
-// //         console.log(fullName.length)
+// // //         mn = fullName.slice(fullName.indexOf(" "), fullName.lastIndexOf(" "))
 
-// //         fn = fullName.slice(0, fullName.indexOf(" "))
+// // //         ln = fullName.slice(fullName.lastIndexOf(" "), fullName.length)
 
-// //         mn = fullName.slice(fullName.indexOf(" "), fullName.lastIndexOf(" "))
+// // //         console.log(`First Name is ${fn} , Middle name is ${mn} and Last name is ${ln}`)
+// // //     } else {
+// // //         console.log("Invalid String Write in First space Middle space Last format  !")
+// // //     }
+// // // } else {
+// // //     console.log("Invalid String !")
+// // // }
 
-// //         ln = fullName.slice(fullName.lastIndexOf(" "), fullName.length)
+// // // looping statements
+// // // while, do while, for,[ forEach , for of, map, filter ] , for in object
 
-// //         console.log(`First Name is ${fn} , Middle name is ${mn} and Last name is ${ln}`)
-// //     } else {
-// //         console.log("Invalid String Write in First space Middle space Last format  !")
-// //     }
-// // } else {
-// //     console.log("Invalid String !")
-// // }
+// // // syntax for while loop
 
-// // looping statements
-// // while, do while, for,[ forEach , for of, map, filter ] , for in object
+// // // while(condition){
+// // //     statment
+// // //     updation in condition
+// // // }
 
-// // syntax for while loop
+// // // let a = 0
 
-// // while(condition){
-// //     statment
-// //     updation in condition
-// // }
+// // // while (a <= 10) {
+// // //     console.log(a)
+// // //     a++
+// // // }
 
-// // let a = 0
+// // // let a = 10
 
-// // while (a <= 10) {
-// //     console.log(a)
-// //     a++
-// // }
+// // // while (a >= 0) {
+// // //     console.log(a)
+// // //     a--
+// // // }
 
-// // let a = 10
+// // // find the count of "a" in this string
 
-// // while (a >= 0) {
-// //     console.log(a)
-// //     a--
-// // }
+// // // let string = "aabacadaea"
 
-// // find the count of "a" in this string
+// // // let count = 0;
 
-// // let string = "aabacadaea"
+// // // let pointer = 0
 
-// // let count = 0;
+// // // while (pointer < string.length) {
 
-// // let pointer = 0
+// // //     if (string.charAt(pointer) == "a") {
+// // //         // count = count + 1
+// // //         count++
+// // //     }
 
-// // while (pointer < string.length) {
+// // //     pointer++
 
-// //     if (string.charAt(pointer) == "a") {
-// //         // count = count + 1
-// //         count++
-// //     }
+// // // }
 
-// //     pointer++
+// // // console.log(count)
 
-// // }
+// // // find odd and even number from 0 to 1000
 
-// // console.log(count)
+// // // let number = 0
 
-// // find odd and even number from 0 to 1000
+// // // while (number <= 1000) {
 
-// // let number = 0
+// // //     if(number % 2 == 0){
+// // //         // console.log(`Number ${number} is even !`)
+// // //         console.log("Number "+number+ " is even !")
+// // //     }else{
+// // //         console.log(`Number ${number} is odd !`)
+// // //     }
 
-// // while (number <= 1000) {
+// // //     number ++
 
-// //     if(number % 2 == 0){
-// //         // console.log(`Number ${number} is even !`)
-// //         console.log("Number "+number+ " is even !")
-// //     }else{
-// //         console.log(`Number ${number} is odd !`)
-// //     }
-
-// //     number ++
-
-// // }
+// // // }
 
 
-// // factorials, 5 = 5*4*3*2*1 = 120
+// // // factorials, 5 = 5*4*3*2*1 = 120
 
-// // wap in to find factorials for numbers
+// // // wap in to find factorials for numbers
 
-// // let number = 55;
+// // // let number = 55;
 
-// // let org = number
+// // // let org = number
 
-// // let fact = 1
+// // // let fact = 1
 
-// // while(number != 0){
+// // // while(number != 0){
 
-// //     fact = fact * number //5 , 20 , 60 , 120 , 120
+// // //     fact = fact * number //5 , 20 , 60 , 120 , 120
 
-// //     number--
+// // //     number--
 
-// // }
+// // // }
 
-// // console.log(`factorial of ${org} is ${fact} !`)
+// // // console.log(`factorial of ${org} is ${fact} !`)
 
 
-// // wap in js to reverse a numbers
-// // let num = 123 //6452
+// // // wap in js to reverse a numbers
+// // // let num = 123 //6452
+// // // let org = num
+// // // let rev = 0
+// // // let d;
+
+// // // while(num != 0){
+// // //     d = num % 10
+
+// // //     rev = rev * 10 + d
+
+// // //     num = parseInt(num / 10)
+// // // }
+
+// // // console.log(`reverse of ${org} is ${rev}`)
+
+// // // palindrome numbers/strings
+
+// // // let num = 121 //6452
+// // // let org = num
+// // // let rev = 0
+// // // let d;
+
+// // // while(num != 0){
+// // //     d = num % 10
+
+// // //     rev = rev * 10 + d
+
+// // //     num = parseInt(num / 10)
+// // // }
+
+// // // console.log(rev)
+
+// // // if(org == rev){
+// // //     console.log(`${org} is a palindrome !`)
+// // // }else{
+// // //     console.log(`${org} is not a palindrome !`)
+// // // }
+
+// // // sum of digits
+
+// // // let num = 19
+// // // let org = num
+
+// // // let d;
+// // // let sum = 0
+
+// // // while(num != 0){
+
+// // //     d = num % 10
+
+// // //     sum = sum + d 
+
+// // //     num = parseInt(num/10)
+
+// // // }
+
+// // // console.log(`The sum of digits of ${org} is ${sum} !`)
+
+// // // armstrong number, sum of digits (with power of numbers of digits) is equal to orgnial number
+// // // 123 = 1*1*1 + 2*2*2 + 3*3*3 = 1 + 8 + 27 = 36 not a armstrong number
+// // // 153 = 1*1*1 + 5*5*5 + 3*3*3 = 1 + 125 + 27 = 153 it os armstrong number
+
+// // // let num = 1634
+
+// // // let org = num
+// // // let d
+// // // let sum = 0
+
+// // // while(num != 0){
+
+// // //     d = num % 10
+
+// // //     sum = sum + (d*d*d*d)
+
+// // //     num = parseInt(num/10)
+
+// // // }
+
+// // // console.log(sum)
+
+// // // if(org == sum){
+// // //     console.log(`${org} is a armstrong number !`)
+// // // }else{
+// // //     console.log(`${org} is not a armstrong number !`)
+// // // }
+
+// // // wap to find numbers of digits in a number
+
+// // // let num = 12346857434354665456
+
+// // // let d;
+
+// // // let digits = 0
+
+// // // while (num !=0 ) {
+
+// // //     d = num % 10
+
+// // //     if (d) {
+// // //         digits++
+// // //     }
+
+// // //     num =  parseInt(num / 10)
+
+// // // }
+
+// // // console.log(digits)
+
+// // // wap to find wheater a any number is armstrong or not 
+
+// // let num = 4679307774
+
 // // let org = num
-// // let rev = 0
-// // let d;
 
-// // while(num != 0){
-// //     d = num % 10
+// // let digits = 0
 
-// //     rev = rev * 10 + d
-
-// //     num = parseInt(num / 10)
-// // }
-
-// // console.log(`reverse of ${org} is ${rev}`)
-
-// // palindrome numbers/strings
-
-// // let num = 121 //6452
-// // let org = num
-// // let rev = 0
-// // let d;
-
-// // while(num != 0){
-// //     d = num % 10
-
-// //     rev = rev * 10 + d
-
-// //     num = parseInt(num / 10)
-// // }
-
-// // console.log(rev)
-
-// // if(org == rev){
-// //     console.log(`${org} is a palindrome !`)
-// // }else{
-// //     console.log(`${org} is not a palindrome !`)
-// // }
-
-// // sum of digits
-
-// // let num = 19
-// // let org = num
-
-// // let d;
-// // let sum = 0
-
-// // while(num != 0){
-
-// //     d = num % 10
-
-// //     sum = sum + d 
-
-// //     num = parseInt(num/10)
-
-// // }
-
-// // console.log(`The sum of digits of ${org} is ${sum} !`)
-
-// // armstrong number, sum of digits (with power of numbers of digits) is equal to orgnial number
-// // 123 = 1*1*1 + 2*2*2 + 3*3*3 = 1 + 8 + 27 = 36 not a armstrong number
-// // 153 = 1*1*1 + 5*5*5 + 3*3*3 = 1 + 125 + 27 = 153 it os armstrong number
-
-// // let num = 1634
-
-// // let org = num
 // // let d
+
 // // let sum = 0
+
+// // while (num != 0) {
+// //     d = num % 10
+
+// //     if (d) {
+// //         digits++
+// //     }
+
+// //     num = parseInt(num / 10)
+// // }
+
+// // console.log(`${org} has ${digits} digits !`)
+
+// // num = org 
+
+// // // num = org reset with original value , because num become 0 after first loop
+
+// // // console.log(num)
 
 // // while(num != 0){
 
 // //     d = num % 10
 
-// //     sum = sum + (d*d*d*d)
+// //     sum = sum + Math.pow(d,digits)
 
 // //     num = parseInt(num/10)
 
@@ -939,258 +1009,383 @@
 // //     console.log(`${org} is not a armstrong number !`)
 // // }
 
-// // wap to find numbers of digits in a number
 
-// // let num = 12346857434354665456
+// // wap a program to make reverse of a string
 
-// // let d;
+// // let str = "aba" // lla
 
-// // let digits = 0
+// // let char = ""
 
-// // while (num !=0 ) {
+// // let rev_str = ""
 
-// //     d = num % 10
+// // let pointer = str.length - 1 // 3 , 2 , 1 , 0 , (-1 false condition)
 
-// //     if (d) {
-// //         digits++
-// //     }
+// // while (pointer >= 0) {
 
-// //     num =  parseInt(num / 10)
+// //     char = str.charAt(pointer) //t
+
+// //     // console.log(char)
+
+// //     rev_str = rev_str.concat(char)
+// //     // ""+"g" = "g" + "n" = "gn" + "i" = "gni" + "r" = "gnir" + "t" = "gnirt" + "s" = "gnirts"
+
+// //     pointer--
 
 // // }
 
-// // console.log(digits)
+// // // console.log(rev_str)
 
-// // wap to find wheater a any number is armstrong or not 
+// // console.log(`Reverse of ${str} is ${rev_str}`)
 
-// let num = 4679307774
+// // if (str === rev_str) {
+// //     console.log(`string ${str} is a palindrome ! `)
+// // }else{
+// //     console.log(`string ${str} is not a palindrome ! `)
+// // }
 
-// let org = num
+// // nasted loops to iterate multi demensional arrays
 
-// let digits = 0
+// // [[1,2,3],[4,5,6],[7,8,9]]
 
-// let d
+// // wap to make a multiplication table
 
-// let sum = 0
+// // make this from 1 to 10
 
-// while (num != 0) {
-//     d = num % 10
+// // 2 * 1 = 2
+// // 2 * 2 = 4
+// // 2 * 3 = 6
+// // 2 * 4 = 8
+// // 2 * 5 = 10
+// // 2 * 6 = 12
+// // 2 * 7 = 14
+// // 2 * 8 = 16
+// // 2 * 9 = 18
+// // 2 * 10 = 20
 
-//     if (d) {
-//         digits++
+// // write a nasted loop for this
+
+// // let table_no = 1
+
+// // while (table_no <= 100) {
+
+// //     let num = table_no
+
+// //     let counter = 1
+
+// //     while (counter <= 10) {
+
+// //         console.log(`${num} * ${counter} = ${num * counter} `)
+
+// //         counter++
+
+// //     }
+
+// //     table_no ++
+
+// //     console.log("------------------------")
+
+// // }
+
+// // do while loop
+// // syntac for do while loop
+
+// // do{
+// //     // statments 
+// //     // updation
+// // }while(condition)
+
+// // wap to take user input as year then check if leap year, ask again to enter year if continues.
+
+// // let chooice = "no"
+
+// // do{
+
+// //     let year = Number(prompt("Enter Any Year !"))
+
+// //     if( (year % 4 == 0) || ((year %100 == 0) &&  (year % 400 == 0) ) ){
+// //         console.log(`${year} is a leap year !`)
+// //     }else{
+// //         console.log(`${year} is not a leap year !`)
+// //     }
+
+// //     chooice = prompt("do you wish to continue ? yes/no(kuch bhi )")
+
+// // }while( chooice == "yes" )
+
+// // make replace all function to replace single element
+// // some edits
+
+// // let a = 10
+
+// // do {
+// //     console.log(a)
+// //     a++
+// // } while (a <= 5)
+
+// // for loop
+
+// // syntax : for loop 
+
+// // for(initize ; condition ; updation ){
+// //     // statement
+// // }
+
+// // wap to print 1 - 1000 even numbers
+
+// // for(let num = 0 ; num < 500 ; num++){
+// //     if(num % 2 == 0){
+// //         console.log(num)
+// //     }
+// // }
+
+// // let num = 0
+
+// // while(num <= 1000){
+// //     console.log(num)
+// //     num++
+// // }
+
+// // ARRAY 
+
+// // collection of elements stored in continue memory location 
+
+// // syntac for creating a array
+
+// // let numbers = [1,2,3,4,6,7,8,9,10,11]
+
+// // js has dynamic array 
+
+// // let array = [true, 1234 , "strign" , {} , [] ]
+
+// // js allots 10 memory location for a array 
+
+// // 1001,1002,1003,1004,1005,1006,1007,1008,1009,1010
+
+// // new length = length * 1.5
+// // = 10 * 1.5
+// // = 15 * 1.5
+
+// // int array[10] = [1,1,+]
+
+// // FIFO (First In - First Out) (horizontally stacked)
+
+// // let nums = [1,2,3,4,5] 
+
+// // length = 5
+// // indexes = 5 (0,1,2,3,4)
+
+// // indexed data mai add and remove slow hota hai 
+
+// // searching, sorting, look up 
+// // to add or to remove
+
+// // array and it's oprations
+
+// // let names = ["amey" , "om" , "yash" ]
+
+// // console.log(names)
+
+// // // names[index]
+// // console.log(names[0])
+
+// // // names of index
+// // names[0] = "xyz"
+// // names[1] = "abc"
+
+// // console.log(names)
+
+// // let nums = ["amey",2,3,4,5,6,7,8,9]
+
+// // array.length
+// // console.log(nums.length)
+
+// // how to access an element at certain index in an array
+
+// // array[index] re-assignment, replace, swap 
+
+// // nums[0] = "om"
+
+// // console.log(nums[0])
+
+// // how to iterate a array using for loop / while loop 
+
+
+// // console.log(nums)
+
+// // for(let i = 0 ; i <= nums.length ; i++){
+// //     console.log(nums[i])
+// // }
+
+// // nums[9] array index out of bound 
+
+// // let i = 0
+
+// // while(i < nums.length){
+
+// //     console.log(nums[i])
+
+// //     i++
+// // }
+
+// // methods
+
+// // let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+
+// // numbers[0] = 1000 //re-assignment
+
+// // to add elements from trailing part of a array
+
+// // array.push(element)
+
+// // console.log(numbers.length)
+// // console.log(numbers)
+
+// // numbers.push(15)
+
+// // console.log(numbers.length)
+// // console.log(numbers)
+
+// // numbers.push("amey khondekar")
+
+// // console.log(numbers.length)
+// // console.log(numbers)
+
+// // // to add element from leading part 
+// // // array.unshift(element)
+
+// // numbers.unshift("new element")
+
+// // console.log(numbers.length)
+// // console.log(numbers)
+
+// // to remove element from trailing 
+// // array.pop()
+
+// // numbers.pop()
+// // numbers.pop()
+// // numbers.pop()
+// // numbers.pop()
+// // numbers.pop()
+
+// // console.log(numbers.length)
+// // console.log(numbers)
+
+
+// // // to remove element from leading 
+// // // array.shift()
+
+// // numbers.shift()
+// // numbers.shift()
+// // numbers.shift()
+// // numbers.shift()
+// // numbers.shift()
+
+// // console.log(numbers.length)
+// // console.log(numbers)
+
+// // to insert or remove element from any index in an array
+// // array.splice(finding index, delete count, new element) 
+
+// let names = ["amey","om","yash","mrunal"]
+
+// // console.log("initial")
+// // console.log(names)
+
+// // names.splice(2,0,"piyush")
+
+// // console.log("updated")
+// // console.log(names)
+
+// let newNames = names.slice(0,2)
+
+// console.log(newNames)
+
+// console.log(names)
+
+// 2-D array i.e. a array with multiple rows and columns (matrix)
+
+// let num1 = [1, 2, 3]
+// let num2 = [4, 5, 6]
+
+// let nums = [
+//     num1, num2
+// ]
+
+// // console.log(nums)
+
+// // to itetrate a 2-D array use nasted for loop
+
+// for( let i = 0 ; i < nums.length ; i++ ){
+//     // this will loop through rows 
+//     for(let j = 0 ;j < nums[i].length ; j++){
+//     // this will loop through columns    
+//         console.log( nums[i][j] )
 //     }
-
-//     num = parseInt(num / 10)
 // }
 
-// console.log(`${org} has ${digits} digits !`)
+// function , builtin classes(math, date)
 
-// num = org 
-
-// // num = org reset with original value , because num become 0 after first loop
-
-// // console.log(num)
-
-// while(num != 0){
-
-//     d = num % 10
-
-//     sum = sum + Math.pow(d,digits)
-
-//     num = parseInt(num/10)
-
-// }
-
-// console.log(sum)
-
-// if(org == sum){
-//     console.log(`${org} is a armstrong number !`)
-// }else{
-//     console.log(`${org} is not a armstrong number !`)
-// }
+// algorithms : linear-search, binary-search, bubble sort
 
 
-// wap a program to make reverse of a string
+// functions in js 
+// to create a custom function
 
-// let str = "aba" // lla
+// their are 2 syntax to write a function
+// function has 4 types
+// we can create a function with no name
 
-// let char = ""
+// using function keyword 
+// ES6 Module function | arrow function | fat arrow function
 
-// let rev_str = ""
-
-// let pointer = str.length - 1 // 3 , 2 , 1 , 0 , (-1 false condition)
-
-// while (pointer >= 0) {
-
-//     char = str.charAt(pointer) //t
-
-//     // console.log(char)
-
-//     rev_str = rev_str.concat(char)
-//     // ""+"g" = "g" + "n" = "gn" + "i" = "gni" + "r" = "gnir" + "t" = "gnirt" + "s" = "gnirts"
-
-//     pointer--
-
-// }
-
-// // console.log(rev_str)
-
-// console.log(`Reverse of ${str} is ${rev_str}`)
-
-// if (str === rev_str) {
-//     console.log(`string ${str} is a palindrome ! `)
-// }else{
-//     console.log(`string ${str} is not a palindrome ! `)
-// }
-
-// nasted loops to iterate multi demensional arrays
-
-// [[1,2,3],[4,5,6],[7,8,9]]
-
-// wap to make a multiplication table
-
-// make this from 1 to 10
-
-// 2 * 1 = 2
-// 2 * 2 = 4
-// 2 * 3 = 6
-// 2 * 4 = 8
-// 2 * 5 = 10
-// 2 * 6 = 12
-// 2 * 7 = 14
-// 2 * 8 = 16
-// 2 * 9 = 18
-// 2 * 10 = 20
-
-// write a nasted loop for this
-
-// let table_no = 1
-
-// while (table_no <= 100) {
-
-//     let num = table_no
-
-//     let counter = 1
-
-//     while (counter <= 10) {
-
-//         console.log(`${num} * ${counter} = ${num * counter} `)
-
-//         counter++
-
-//     }
-
-//     table_no ++
-
-//     console.log("------------------------")
-
-// }
-
-// do while loop
-// syntac for do while loop
-
-// do{
-//     // statments 
-//     // updation
-// }while(condition)
-
-// wap to take user input as year then check if leap year, ask again to enter year if continues.
-
-// let chooice = "no"
-
-// do{
-
-//     let year = Number(prompt("Enter Any Year !"))
-
-//     if( (year % 4 == 0) || ((year %100 == 0) &&  (year % 400 == 0) ) ){
-//         console.log(`${year} is a leap year !`)
-//     }else{
-//         console.log(`${year} is not a leap year !`)
-//     }
-
-//     chooice = prompt("do you wish to continue ? yes/no(kuch bhi )")
-
-// }while( chooice == "yes" )
-
-// make replace all function to replace single element
-// some edits
+// to make a function work we have to call it 
+// syntax : functionName(optional)
 
 // let a = 10
+// let b = 20
 
-// do {
-//     console.log(a)
-//     a++
-// } while (a <= 5)
+// console.log(a+b)
 
-// for loop
+// let x = 20
+// let y = 20
 
-// syntax : for loop 
+// console.log(x+y)
 
-// for(initize ; condition ; updation ){
-//     // statement
+// using function keyword
+
+// function functionName(optional) {
+//     // function body
+//     // return return statement optional
 // }
 
-// wap to print 1 - 1000 even numbers
+// functionName(optional)
 
-// for(let num = 0 ; num < 500 ; num++){
-//     if(num % 2 == 0){
-//         console.log(num)
-//     }
+// function greet(){
+//     console.log("hello this is greet function !")
 // }
 
-// let num = 0
+// greet()
 
-// while(num <= 1000){
-//     console.log(num)
-//     num++
+// let i = 1
+
+// while(i <= 10){
+//     greet()
+//     i++
 // }
 
-// ARRAY 
+// using arrow function
 
-// collection of elements stored in continue memory location 
+// scope functionName = (optional) => {
+//     // function body
+//     // return return statement optional
+// }
 
-// syntac for creating a array
+let greet = () =>{
+    console.log("hello this is greet function using arrow syntax !")
+}
 
-// let numbers = [1,2,3,4,6,7,8,9,10,11]
-
-// js has dynamic array 
-
-// let array = [true, 1234 , "strign" , {} , [] ]
-
-// js allots 10 memory location for a array 
-
-// 1001,1002,1003,1004,1005,1006,1007,1008,1009,1010
-
-// new length = length * 1.5
-// = 10 * 1.5
-// = 15 * 1.5
-
-// int array[10] = [1,1,+]
-
-// FIFO (First In - First Out) (horizontally stacked)
-
-// let nums = [1,2,3,4,5] 
-
-// length = 5
-// indexes = 5 (0,1,2,3,4)
-
-// indexed data mai add and remove slow hota hai 
-
-// searching, sorting, look up 
-// to add or to remove
-
-// array and it's oprations
-
-let names = ["amey" , "om" , "yash" ]
-
-console.log(names)
-
-// names[index]
-console.log(names[0])
-
-// names of index
-names[0] = "xyz"
-names[1] = "abc"
-
-console.log(names)
-
+greet()
+greet()
+greet()
+greet()
+greet()
