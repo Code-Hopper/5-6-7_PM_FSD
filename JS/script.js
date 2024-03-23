@@ -1380,12 +1380,114 @@
 //     // return return statement optional
 // }
 
-let greet = () =>{
-    console.log("hello this is greet function using arrow syntax !")
-}
+// let greet = () =>{
+//     console.log("hello this is greet function using arrow syntax !")
+// }
 
-greet()
-greet()
-greet()
-greet()
-greet()
+// greet()
+// greet()
+// greet()
+// greet()
+// greet()
+
+// 4 types of functions
+
+// 1. no args and no return
+// 2. args but no return
+// 3. args and return
+// 3. no args but return
+
+// using function 
+
+// no args and no return
+
+// function sum(){
+//     console.log(10+20)
+// }
+
+// sum()
+
+// args but no return
+// parameters 
+
+// function sum(a,b){
+//    console.log(a+b)
+// }
+
+// sum(100,50)
+
+// args and return 
+// we have return statements
+
+// function sum(a, b) {
+//     return a+b
+// }
+
+// console.log(sum(10,30))
+
+// let addition = sum(50,40)
+
+// console.log(addition)
+
+// no args but return
+
+// function greet(){
+//     return "hello Bhai !"
+// }
+
+// console.log(greet())
+
+// // into arrow function
+
+// math class in js
+// we are going access properties and methods from a math class in js 
+
+// .toFixed(points)
+
+// console.log(Math.PI)
+
+// function areaOfCircle(radius){
+//     let area = Math.PI * Math.pow(radius,2)
+//     return `${area.toFixed(2)} sq.cm.`
+// }
+
+// console.log(areaOfCircle(5))
+// console.log(areaOfCircle(10))
+
+// console.log(Math.SQRT2)
+// console.log(Math.LOG10E)
+// console.log(Math.LOG2E)
+// console.log(Math.SQRT1_2)
+// console.log(Math.E)
+
+// // methods
+
+// let a = Math.pow(3,10) //return || args and return
+
+// console.log(a)
+
+// // 64 sq root 8
+
+// console.log(Math.sqrt(144))
+
+// console.log(Math.cbrt(125))
+
+// let maxnumber = Math.max(10,55,12,1,77,102,3)
+// let minnumber = Math.min(10,55,12,1,77,102,3)
+
+// console.log(maxnumber)
+// console.log(minnumber)
+
+let nums = [1,2,3,4,5,6,7,8,9]
+
+// push(), unshift()
+// splice(index,deletecount,new element)
+
+// nums.splice(2,0,99999)
+
+// console.log(nums)
+
+// let newNums = nums.slice(startindex, endingindex)
+let newNums= nums.slice(0,3)
+
+console.log(newNums)
