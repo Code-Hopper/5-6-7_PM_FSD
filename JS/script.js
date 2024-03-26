@@ -1579,3 +1579,85 @@
 // console.log(date.getHours())
 // console.log(date.getMinutes())
 // console.log(date.getSeconds())
+
+// write a arrow function for no args but return
+
+// let greet = () =>{
+    
+//     // function body
+
+//     return "Hello"
+
+// }
+
+// console.log(greet())
+// console.log(greet())
+// console.log(greet())
+// console.log(greet())
+// console.log(greet())
+
+
+// wap a function to calculate area of circle in sq.cm
+
+// function areaOfCircle(radius){
+
+//     let area = (Math.PI * Math.pow(radius,2)).toFixed(2)
+
+//     return `Area of circle with radius ${radius} cm is ${area} sq.cm`
+// }
+
+// console.log(areaOfCircle(10))
+
+// function findArea( lengh, width ){
+//     return `area of shape with length ${lengh} cm and width ${width} cm is ${width * lengh}`
+// }
+
+// console.log(findArea(2,2))
+
+// method overloading
+
+// // wap to make sum of numbers function
+
+// function sumOfNumber(a,b){
+//     alert("1")
+//     return a+b
+// }
+
+// function sumOfNumber(a,b,c){
+//     alert("2")
+//     return a+b+c
+// }
+
+// function sumOfNumber(a,b,c,d){
+//     alert("3")
+//     return a+b+c+d
+// }
+
+// function sumOfNumber(a,b,c,d,e){
+//     alert("4")
+//     return a+b+c+d+e
+// }
+
+// function sumOfNumber(a,b,c,d,e,f){
+//     alert("5")
+//     return a+b+c+d+e+f
+// }
+
+// console.log(sumOfNumber(10,20))
+
+// complete using OOP's
+
+// javascripts objects 
+
+// scope name = { key:value , key2:value2,.,.,.,.,.,. }
+
+// let student = {
+//     name : 'amey',
+//     class: 'FSD-5PM',
+//     roll: 5,
+//     regular : true
+// }
+
+// console.log(student.name)
+// console.log(student.roll)
+// console.log(student.regular)
