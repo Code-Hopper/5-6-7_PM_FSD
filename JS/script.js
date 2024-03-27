@@ -1583,7 +1583,7 @@
 // write a arrow function for no args but return
 
 // let greet = () =>{
-    
+
 //     // function body
 
 //     return "Hello"
@@ -1661,3 +1661,86 @@
 // console.log(student.name)
 // console.log(student.roll)
 // console.log(student.regular)
+
+
+// let student = {
+//     name: {
+//         firstName :"Amey",
+//         middleName : "Anil",
+//         lastName : "Khondekar"
+//     },
+//     roll: 1 ,
+//     class : "fsd5PM"
+// }
+
+// console.log(student.name.firstName)
+// console.log(student.name.middleName)
+// console.log(student.name.lastName)
+
+// use for in to make object (key) itration 
+
+// let student = {
+//     name : "amey",
+//     roll : 1,
+//     class : "FSD5PM",
+//     address : "nagpur",
+//     contact : 9766696550,
+//     id : "A123" 
+// }
+
+// for in loop is special and reserved for objects only
+
+
+// for (let key in object){
+
+// }
+
+//[name, roll , class , address , contact , id] = ["amey",1,"FSD5PM","nagpur",9766696550,"A123"]
+
+// name
+// roll
+
+// for( let key in student ){
+//     // console.log(key)
+//     console.log(student[key])
+//     // console.log( ` ${key} = ${student[key]} ` )
+//     // console.log(student)
+// }
+
+// let nums = [1,2,3,4]
+
+// let [a,b,c,d] = [1,6876464,3,4]
+
+// console.log(a)
+// console.log(b)
+// console.log(a)
+// console.log(b)
+
+// let user = {
+//     name: "yash",
+//     phone: 9766696550,
+//     address: "nagpur",
+//     email: "ameykhondekar01@gmail.com",
+//     password: "password123"
+// }
+
+// // console.log(user.name)
+
+// let { name , phone , password } = user 
+
+// console.log(name)
+// console.log(phone)
+// console.log(password)
+
+
+// linear search, bubble sort  
+
+// let nums = [1,2,45,56,8,9,6,32,326]
+
+// let Search = 800
+
+// let pointer , flag = false
+
+// // if(name == "jayesh"){
+// //     flag = true
+// // }
