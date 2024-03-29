@@ -85,15 +85,15 @@
 
 // array of objects
 
-let students = [ 
-    {name: "amey" , age : 13 , contact: 9766696550},
-    {name: "jayesh" , age : 19 , contact: 787454683},
-    {name: "Anushree" , age : 23 , contact: 789745464},
-    {name: "Ayushi" , age : 20 , contact: 4567688963},
-    {name: "Unnati" , age : 11 , contact: 5457993632},
-    {name: "Tina" , age : 16 , contact: 8777999633},
-    {name: "yash" , age: 22, contact: 7897987642 }
-]
+// let students = [ 
+//     {name: "amey" , age : 13 , contact: 9766696550},
+//     {name: "jayesh" , age : 19 , contact: 787454683},
+//     {name: "Anushree" , age : 23 , contact: 789745464},
+//     {name: "Ayushi" , age : 20 , contact: 4567688963},
+//     {name: "Unnati" , age : 11 , contact: 5457993632},
+//     {name: "Tina" , age : 16 , contact: 8777999633},
+//     {name: "yash" , age: 22, contact: 7897987642 }
+// ]
 
 // students[0].address = "nagpur"
 
@@ -126,3 +126,84 @@ let students = [
 //     console.log("for loop")
 //     console.log(students[i])
 // }
+
+// wap in js to make a array of 10 random numbers element(using Math class and array push/unshift method)
+
+let createRandomNumberArray = (length, RangeLimit) => {
+    let ArrayName = []
+    let randomNumber = 0
+    for (let i = 0; i < length; i++) {
+        randomNumber = Math.floor(Math.random() * RangeLimit + 1)
+        ArrayName[i] = randomNumber
+    }
+    return ArrayName;
+}
+
+// call this function then set the length of array, then set the upper limit of a element number  then this function will return a array of random numbers
+
+let createRandomCharArray = (length) => {
+    let ArrayName = []
+    let randomNumber = 0
+
+    let allAlphabets = "abcdefghijklmnopqrstuvwxyz"
+
+    for (let i = 0; i < length; i++) {
+        randomNumber = Math.floor(Math.random() * 26)  //0
+        ArrayName[i] = allAlphabets.charAt(randomNumber)
+    }
+
+    // make a assending sort for string
+
+    return ArrayName;
+}
+
+
+let numbers = createRandomNumberArray(10, 5)
+
+console.log(numbers)
+
+// linear search algorithm (it will help us to find the position of any element if exits if not found then postion = -1)
+
+// let searchElement = Number(prompt("Enter Number to search !"))
+
+// let postion = -1
+
+// let found = false
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (searchElement == numbers[i]) {
+//         found = true
+//         postion = i + 1
+//         break;
+//     }
+// }
+
+// if(found){
+//     console.log(`Element was found on position : ${postion} !`)
+// }else{
+//     console.log(`Element was not found  ${postion} !`)
+// }
+
+// wap a linear search program also find the number of itration of found element
+
+let searchElement = Number(prompt("Enter Number to search !"))
+
+let postion = -1
+
+let found = false
+
+let repeatCount = []
+
+for (let i = 0; i < numbers.length; i++) {
+    if (searchElement == numbers[i]) {
+        found = true
+        postion = i + 1
+        repeatCount.push(postion)
+    }
+}
+
+if(found){
+    console.log(`Element ${searchElement} was found on position/s : ${repeatCount} | the element has been repeated ${repeatCount.length} times !`)
+}else{
+    console.log(`Element ${searchElement} was not found position : ${postion} | the element has been repeated ${repeatCount.length} times !`)
+}
