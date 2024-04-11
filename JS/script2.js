@@ -368,50 +368,80 @@ let sortArray = (array) => {
 
 // using while loop
 
-let Array1 = createRandomNumberArray(10,100)
+// let Array1 = createRandomNumberArray(10,100)
 
-Array1 = sortArray(Array1)
+// Array1 = sortArray(Array1)
 
-console.log(Array1)
+// console.log(Array1)
 
-let searchValue = Number(prompt("Enter Search Value for Binary Search in A array !"))
-let flag = false
+// let searchValue = Number(prompt("Enter Search Value for Binary Search in A array !"))
+// let flag = false
 
-let lowerBound = 0
-let upperBound = Array1.length - 1
+// let lowerBound = 0
+// let upperBound = Array1.length - 1
 
-let midPoint;
+// let midPoint;
 
-let i = 0
+// let i = 0
 
-while (lowerBound <= upperBound) {
+// while (lowerBound <= upperBound) {
 
-    if(searchValue < Array1[lowerBound] || searchValue > Array1[upperBound] ){
-        console.log("search element is not present !")
-        break;
-    } 
+//     if(searchValue < Array1[lowerBound] || searchValue > Array1[upperBound] ){
+//         console.log("search element is not present !")
+//         break;
+//     } 
 
-    midPoint = lowerBound + Math.floor((upperBound - lowerBound) / 2)
+//     midPoint = lowerBound + Math.floor((upperBound - lowerBound) / 2)
 
-    if (Array1[midPoint] === searchValue){
-        flag = true
-        break;
-    }
+//     if (Array1[midPoint] === searchValue){
+//         flag = true
+//         break;
+//     }
 
-    if(Array1[midPoint] < searchValue){
-        lowerBound = midPoint + 1
-    }else{
-        upperBound = midPoint - 1
-    }
+//     if(Array1[midPoint] < searchValue){
+//         lowerBound = midPoint + 1
+//     }else{
+//         upperBound = midPoint - 1
+//     }
 
-    i = i + 1
+//     i = i + 1
 
-}
+// }
 
-if(flag){
-    console.log(`Element ${searchValue} found at index ${midPoint} !`)
-}else{
-    console.log(`Element ${searchValue} not found !`)
-}
+// if(flag){
+//     console.log(`Element ${searchValue} found at index ${midPoint} !`)
+// }else{
+//     console.log(`Element ${searchValue} not found !`)
+// }
 
-console.log(i)
+// console.log(i)
+
+// sort, filter 
+
+// let arr1 = [5,4,7,9,92,1]
+
+// console.log(arr1)
+
+// // arr1 = arr1.sort((a,b)=>{
+// //     return a - b 
+// //     return b - a 
+// // })
+
+// // console.log(arr1)
+
+// // delete 
+
+// arr1 = arr1.filter((element)=>{
+//     return element != 92
+// })
+
+// console.log(arr1)
+
+// data types, variable, array , objects, string, condition statements, oprations, looping statements, array methods (forEach, for of, map, filter , sort) , object method (for in), function (keyword, Arrow Function)
+
+
+// array.forEach(()=>{
+    
+// })
+
+// those function who accepts another function as an arg can be called as higher order function
