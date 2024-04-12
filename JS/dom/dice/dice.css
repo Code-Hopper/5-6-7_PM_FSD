@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 5rem;
+}
+
+.dice {
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+    background-color: red;
+    border-radius: 24px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 120px);
+    grid-template-rows: repeat(3,120px); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+.roll{
+    /* background: none; */
+    border: none;
+    outline: none;
+    padding: 2% 5%;
+    font-weight: bolder;
+    font-size: 2rem;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.roll::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: red;
+    width: 0;
+    height: 100%;
+    transition: all ease 0.5s;
+}
+
+.roll:hover::before{
+    width: 100%;
+}
+.roll:hover{
+    color: white !important;
+}
+
+@keyframes rollDice {
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50%{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+    100%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+} 
