@@ -1,25 +1,41 @@
-// let a = 50
-// let b = 0
+// // let a = 50
+// // let b = 0
 
-// console.log(a/b)
-// abc 10
-// try catch block
+// // console.log(a/b)
+// // abc 10
+// // try catch block
 
-let a = 50
-let b = 0
+// // let a = 50
+// // let b = 0
 
-try{
+// // try{
 
-    if(b === 0){
-        throw("division by 0 is not possible !")
-    }
+// //     if(b === 0){
+// //         throw("division by 0 is not possible !")
+// //     }
 
-    console.log(a/b)
- 
-}catch(err){
-    console.log("some error/exception occured " +err)
-}
+// //     console.log(a/b)
+
+// // }catch(err){
+// //     console.log("some error/exception occured " +err)
+// // }
+
+// // console.log()
 
 
+// // abc.log()
 
-console.log()
+// try {
+
+//     let name = window.prompt("Enter Name 5 Chars")
+
+//     console.log("hello")
+
+//     if (name.length > 5) {
+//         throw("Length exceeded ")
+//     }
+
+// }catch(err){
+//     // e, err, error, exception
+//     console.log(err)
+// }
