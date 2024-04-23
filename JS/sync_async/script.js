@@ -50,3 +50,16 @@
 // // }
 
 // abc.log()
+
+// let element = document.getElementById("remaining_time")
+
+// let time = 20
+
+// let counter = setInterval(()=>{
+//     element.innerHTML = `${time}s`
+//     time--
+// },1000)
+
+// setTimeout(()=>{
+//     clearInterval(counter)
+// },21000)
