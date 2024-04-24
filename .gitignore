@@ -1,2 +1,4 @@
 #ignore files
 imp.txt
+# ignore bootstap5
+bootstrap_projects/project1/vendors/bootstrap5
