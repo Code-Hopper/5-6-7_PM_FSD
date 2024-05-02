@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="../../vendors/bootstrap5/css/bootstrap.css">
+
+    <script src="../../vendors/bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- modal -->
+
+    <!-- trigger -->
+    <div class="container py-5">
+        <button class="btn btn-primary btn-lg" data-bs-target="#modal1" data-bs-toggle="modal">
+            open modal
+        </button>
+    </div>
+
+
+    <!-- target / content -->
+
+    <div class="modal fade modal-top" data-bs-backdrop="static" id="modal1">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>header</h1>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>this is some modal boday</h1>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger">close</button>
+                    <button class="btn btn-warning">reload</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-grow text-danger"></div>
+
+    <!-- progress  -->
+    <div class="progress">
+        <div class="progress-bar bg-primary" style="width: 87%;"></div>
+    </div>
+
+    <input type="range" name="" id="">
+
+    <div class="container">
+        <div class="d-inline-flex border border-3 gap-2 bg-dark text-light">
+            <div class="border p-2 rounded">prev</div>
+            <div class="border p-2">1</div>
+            <div class="border p-2">2</div>
+            <div class="border p-2">3</div>
+            <div class="border p-2 rounded">next</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
