@@ -42,12 +42,12 @@
 
 // ANIMATIONS
 
-$("#btn").click(()=>{
-    $("#id1").fadeIn(200,()=>{
-        console.log("fade completed !")
-    })
-})
+// $("#btn").click(()=>{
+//     $("#id1").fadeIn(200,()=>{
+//         console.log("fade completed !")
+//     })
+// })
 
-$("#btn2").on("mouseover",()=>{
-    $("#element1").toggleClass("collapse")
-})
+// $("#btn2").on("mouseover",()=>{
+//     $("#element1").toggleClass("collapse")
+// })

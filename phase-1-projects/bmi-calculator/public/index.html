@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.css">
+    <link rel="stylesheet" href="../vendors/fontawesome-6/css/all.css">
+
+</head>
+
+<body class="bg-dark">
+
+    <div class="container-fluid">
+        <div class="container p-5">
+            <div class="bmi-display bg-light shadow-lg p-5">
+                <!-- nav tabs units -->
+                <!-- tabs -->
+
+                <h1 class="text-center">BMI Calulator</h1>
+
+                <input id="userName" class="form-control my-3" type="text" name="userName" placeholder="Enter Name" value=""
+                    required>
+
+                <div class="nav nav-tabs d-flex justify-content-center gap-2">
+                    <button type="button" class="btn btn-dark active" data-bs-target="#meters" data-bs-toggle="tab">kg /
+                        m<sup>2</sup> </button>
+                    <button type="button" class="btn btn-dark tab" data-bs-target="#cgsUnits" data-bs-toggle="tab">CGS
+                        Units</button>
+                    <button type="button" class="btn btn-dark tab" data-bs-target="#otherUnits" data-bs-toggle="tab">CGS
+                        Units</button>
+                </div>
+
+                <!-- tab-pane -->
+
+                <div class="tab-content">
+                    <div class="tab-pane show active text-center" id="meters">
+
+                        <!-- weight in kg  -->
+                        <div class="d-flex gap-2 py-3">
+                            <input id="weightKg" class="form-control" type="number" placeholder="weight in kg"
+                                name="weightKg">
+
+                            <input id="heightM" class="form-control" type="number" placeholder="height in m"
+                                name="heightM">
+                        </div>
+
+                        <button type="button" id="metersSubmitButton" class="btn btn-outline-dark">Calculate</button>
+
+                    </div>
+                    <div class="tab-pane" id="cgsUnits">
+                        cgs units
+                    </div>
+                    <div class="tab-pane" id="otherUnits">
+                        other units
+                    </div>
+                </div>
+
+                <div class="text-center py-3 fw-bold fs-2" id="bmiAnswer">
+                    Answer
+                </div>
+
+                <div class="w-100 position-relative">
+                    <div class="displayBMIBlock d-flex fw-bold text-light">
+                        <div class="w-100 h-100 bg-dark px-2">Under Weight</div>
+                        <div class="w-100 h-100 bg-success px-2">Normal</div>
+                        <div class="w-100 h-100 bg-danger px-2">Over Weight</div>
+                        <div class="w-100 h-100 bg-warning px-2">Obesed</div>
+                    </div>
+                    <div class="bmi-pointer" id="bmi-pointer">
+                        <i class="fa-solid fa-up-long"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./script.js"></script>
+<script src="../vendors/bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+</html>
