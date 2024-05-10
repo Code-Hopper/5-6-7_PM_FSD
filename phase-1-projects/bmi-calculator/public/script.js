@@ -9,6 +9,8 @@
 
 let meterButton = $("#metersSubmitButton")
 
+let footButton = $("#footsSubmitButton")
+
 let answer = $("#bmiAnswer")
 
 let pointer = $('#bmi-pointer')
@@ -27,19 +29,43 @@ meterButton.on("click", () => {
 
     // calculate bmi 
 
-    bmi = (weight / Math.pow(height, 2)).toFixed(2)
+    calculateBMIMovePointer(weight, height, UserName)
 
-    switch (bmi) {
-        case bmi < 18: move = "12.5%"
-            break;
-        case bmi > 18 && bmi < 25: move = "37.5%"
-            break;
-        case bmi > 25 && bmi < 30: move = "62.5%"
-            break;
-        case bmi > 30: move = "87.5%"
-            break;
-        default: move = "0"
+})
+
+// convert and calulate for foot and inches
+
+footButton.on("click", () => {
+
+    let weight = Number(document.querySelector("#weightKgF").value)
+    let heightFoot = Number(document.querySelector("#heightFoot").value)
+    let heightInches = Number(document.querySelector("#heightInches").value)
+    let UserName = document.querySelector("#userName").value
+
+    // combine the foots and inches them convert into meters
+
+    // 1ft = 12inches
+    // 5.10 // 5.11 - 6 
+
+    if (heightInches == 12) {
+        heightFoot++
+        console.log(heightFoot)
+        heightInches = 0
     }
+
+    let heightInMeters = (heightFoot * 0.3048) + (heightInches * 0.0254)
+
+    console.log(heightInMeters)
+
+    calculateBMIMovePointer(weight, heightInMeters, UserName)
+
+})
+
+
+let calculateBMIMovePointer = (weight, height, UserName) => {
+    // calculate bmi 
+
+    bmi = (weight / Math.pow(height, 2)).toFixed(2)
 
 
     if (bmi < 18) {
@@ -54,7 +80,6 @@ meterButton.on("click", () => {
         move = "0"
     }
 
-
     console.log(move)
 
     console.log(UserName)
@@ -63,4 +88,4 @@ meterButton.on("click", () => {
 
     pointer.css("left", move)
 
-})
+}

@@ -22,13 +22,14 @@
 
                 <h1 class="text-center">BMI Calulator</h1>
 
-                <input id="userName" class="form-control my-3" type="text" name="userName" placeholder="Enter Name" value=""
-                    required>
+                <input id="userName" class="form-control my-3" type="text" name="userName" placeholder="Enter Name"
+                    value="" required>
 
                 <div class="nav nav-tabs d-flex justify-content-center gap-2">
                     <button type="button" class="btn btn-dark active" data-bs-target="#meters" data-bs-toggle="tab">kg /
                         m<sup>2</sup> </button>
-                    <button type="button" class="btn btn-dark tab" data-bs-target="#cgsUnits" data-bs-toggle="tab">CGS
+                    <button type="button" class="btn btn-dark tab" data-bs-target="#foots" data-bs-toggle="tab">KG/ ft.
+                        in.
                         Units</button>
                     <button type="button" class="btn btn-dark tab" data-bs-target="#otherUnits" data-bs-toggle="tab">CGS
                         Units</button>
@@ -38,7 +39,6 @@
 
                 <div class="tab-content">
                     <div class="tab-pane show active text-center" id="meters">
-
                         <!-- weight in kg  -->
                         <div class="d-flex gap-2 py-3">
                             <input id="weightKg" class="form-control" type="number" placeholder="weight in kg"
@@ -51,8 +51,21 @@
                         <button type="button" id="metersSubmitButton" class="btn btn-outline-dark">Calculate</button>
 
                     </div>
-                    <div class="tab-pane" id="cgsUnits">
-                        cgs units
+                    <div class="tab-pane text-center" id="foots">
+
+                        <!-- weight in kg  -->
+                        <div class="d-flex gap-2 py-3">
+                            <input id="weightKgF" class="form-control" type="number" placeholder="weight in kg"
+                                name="weightKg">
+
+                            <input id="heightFoot" class="form-control" type="number" placeholder="Foots"
+                                name="heightF">
+                            <input id="heightInches" class="form-control" type="number" placeholder="Inches"
+                                name="heightF">
+                        </div>
+
+                        <button type="button" id="footsSubmitButton" class="btn btn-outline-dark">Calculate</button>
+
                     </div>
                     <div class="tab-pane" id="otherUnits">
                         other units
