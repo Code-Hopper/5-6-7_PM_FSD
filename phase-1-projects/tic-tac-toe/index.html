@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./vendors/bootstrap5/css/bootstrap.css">
+    <!-- bootstrap js -->
+    <script src="./vendors/bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./vendors/fontawesome-6/css/all.css">
+
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid p-5">
+        <div class="container p-5" style="height: 600px;">
+            <h2 class="fw-bolder text-center text-light">Tic-Tac-Toe</h2>
+            <div id="timer" class="game-start-timer fs-3 fw-bold text-center text-light">
+            </div>
+            <div class="main-grid w-100 h-100 bg-light my-5">
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+                <div class="main-grid-block bg-dark"></div>
+            </div>
+        </div>
+    </div>
+    <!-- open a pop-up form to take players names -->
+    <div class="p-3 text-center">
+        <button class="btn btn-success fw-bold" data-bs-target="#pop-up" data-bs-toggle="collapse">Start Game</button>
+    </div>
+
+    <!-- pop-up for user inputs -->
+    <div class="collapse pop-up-form p-3 text-center" id="pop-up">
+        <h1 class="text-light text-center">Enter Players Details</h1>
+
+        <div>
+            <form id="playersInfo">
+                <div class="row my-5">
+                    <div class="col-8">
+                        <input class="form-control" type="text" name="player1Name" placeholder="player 1" required>
+                    </div>
+                    <div class="col">
+                        <input class="" type="color" value="" name="player1Color" id="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <input class="form-control" type="text" name="player2Name" placeholder="player 2" required>
+                    </div>
+                    <div class="col">
+                        <input class="" type="color" value="" name="player2Color" id="">
+                    </div>
+                </div>
+                <div class="text-center my-3">
+                    <!-- to submit form and start the game -->
+                    <button type="submit"  data-bs-target="#pop-up" data-bs-toggle="collapse" class="btn btn-primary">Start</button>
+                </div>
+            </form>
+        </div>
+        <!-- close the form -->
+        <button id="close-pop-up" data-bs-target="#pop-up" data-bs-toggle="collapse" class="btn btn-danger">close</button>
+    </div>
+
+</body>
+
+<!-- Jquery -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="./script.js"></script>
+
+</html>
