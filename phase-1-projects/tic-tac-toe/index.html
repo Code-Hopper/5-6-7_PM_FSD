@@ -20,25 +20,31 @@
 <body class="bg-dark">
     <div class="container-fluid p-5">
         <div class="container p-5" style="height: 600px;">
-            <h2 class="fw-bolder text-center text-light">Tic-Tac-Toe</h2>
+
+            <div class="d-flex justify-content-between">
+                <h3 id="player1" class=" text-start"></h3>
+                <h2 class="fw-bolder text-center text-light">Tic-Tac-Toe</h2>
+                <h3 id="player2" class=" text-end"></h3>
+            </div>
             <div id="timer" class="game-start-timer fs-3 fw-bold text-center text-light">
             </div>
             <div class="main-grid w-100 h-100 bg-light my-5">
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
-                <div class="main-grid-block bg-dark"></div>
+                <div data-number="0" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="1" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="2" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="3" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="4" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="5" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="6" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="7" class="main-grid-block bg-dark grid-cell text-light"></div>
+                <div data-number="8" class="main-grid-block bg-dark grid-cell text-light"></div>
             </div>
         </div>
     </div>
     <!-- open a pop-up form to take players names -->
     <div class="p-3 text-center">
         <button class="btn btn-success fw-bold" data-bs-target="#pop-up" data-bs-toggle="collapse">Start Game</button>
+        <button class="btn btn-danger fw-bold" id="stop-game">Stop Game</button>
     </div>
 
     <!-- pop-up for user inputs -->
@@ -46,7 +52,7 @@
         <h1 class="text-light text-center">Enter Players Details</h1>
 
         <div>
-            <form id="playersInfo">
+            <form id="playersInfo" method="post">
                 <div class="row my-5">
                     <div class="col-8">
                         <input class="form-control" type="text" name="player1Name" placeholder="player 1" required>
@@ -65,13 +71,19 @@
                 </div>
                 <div class="text-center my-3">
                     <!-- to submit form and start the game -->
-                    <button type="submit"  data-bs-target="#pop-up" data-bs-toggle="collapse" class="btn btn-primary">Start</button>
+                    <button type="submit" data-bs-target="#pop-up" data-bs-toggle="collapse"
+                        class="btn btn-primary">Start</button>
                 </div>
             </form>
         </div>
         <!-- close the form -->
-        <button id="close-pop-up" data-bs-target="#pop-up" data-bs-toggle="collapse" class="btn btn-danger">close</button>
+        <button id="close-pop-up" data-bs-target="#pop-up" data-bs-toggle="collapse"
+            class="btn btn-danger">close</button>
     </div>
+
+    <!-- message for winner ! -->
+
+    <h1 class="text-center text-light" id="winner"> </h1>
 
 </body>
 
